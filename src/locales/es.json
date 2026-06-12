@@ -1,0 +1,589 @@
+{
+  "home": {
+    "hero": {
+      "title": "Vende tus productos ahora con",
+      "mainImageAlt": "Imagen principal",
+      "secondaryImageAlt": "Inicio",
+      "bannerAlt": "Banner principal",
+      "features": {
+        "1": "Sin verificación de crédito",
+        "2": "No se necesita cuenta bancaria",
+        "3": "Sin pago inicial",
+        "4": "Sin número de Seguro Social",
+        "5": "Sin número de Seguro Social"
+      }
+    },
+    "opportunity": {
+      "title": "Gran oportunidad para tiendas multimarca y de múltiples operadores"
+    },
+    "customers": {
+      "title": "Abra la puerta a nuevos clientes",
+      "subtitle": "Aumente sus ingresos e impulse sus ventas",
+      "imageAlt": "Aumentar las ventas"
+    },
+    "credit": {
+      "title": "Aprobación de crédito desde $350 hasta $1500",
+      "subtitle": "Obtenga financiación en un plazo de 2 días hábiles"
+    },
+    "payment": {
+      "title": "LOS CLIENTES REALIZAN PAGOS EN SU TIENDA"
+    },
+    "electronics": {
+      "title": "Electrónica",
+      "subtitle": "Categorías Populares",
+      "categories": {
+        "macbook": "MacBook",
+        "laptops": "Portátiles",
+        "speakers": "Altavoces",
+        "ipads": "iPads",
+        "electricScooter": "Patinete Eléctrico",
+        "gameConsole": "Consola de Juegos",
+        "phone": "Teléfono",
+        "smartWatches": "Relojes Inteligentes"
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "Cómo funciona",
+    "badges": {
+      "step1": "Paso 1",
+      "step2": "Paso 2",
+      "step3": "Paso 3",
+      "step4": "Paso 4",
+      "step5": "Paso 5",
+      "step6": "Paso 6"
+    },
+    "steps": {
+      "sellProduct": "Venda su producto",
+      "fillApplication": "Complete la solicitud del cliente",
+      "waitApproval": "Espere la aprobación",
+      "signAgreement": "El cliente firma el acuerdo",
+      "deliverProduct": "Entregue el producto al cliente",
+      "getFunded": "Reciba el financiamiento el siguiente día hábil"
+    }
+  },
+  "information": {
+    "important": "Importante: Por favor lea",
+    "step": "Paso",
+    "customerInfoTitle": "Información requerida por el cliente",
+    "storeInfoTitle": "Información requerida por la tienda",
+
+    "customerRequirements": {
+      "item1": "Los clientes deben proporcionar información correcta en la solicitud para agilizar el proceso de aprobación.",
+      "item2": "Las solicitudes pueden ser rechazadas si la información proporcionada es incorrecta; no pueden volver a enviarse con los mismos datos.",
+      "item3": "Verificamos la información llamando al cliente y a sus referencias. El proceso de aprobación suele tardar entre 10 minutos y una hora."
+    },
+
+    "storeRequirements": {
+      "item1": "Proporcione información precisa sobre el producto que está vendiendo. Si la información es incorrecta, su solicitud será rechazada.",
+      "item2": "Ingrese el precio exacto de venta del producto, incluidos los accesorios.",
+      "item3": "Proporcione la descripción exacta, marca y modelo del producto, incluido el IMEI, número de serie y color.",
+      "item4": "Ingrese el monto exacto que solicita para aprobación. Una vez solicitado y aprobado, no podrá modificarse."
+    },
+
+    "steps": {
+      "customerInformation": {
+        "title": "Información del cliente",
+        "items": [
+          "Nombre y apellido",
+          "Fecha de nacimiento",
+          "Número de teléfono del cliente",
+          "Correo electrónico del cliente",
+          "Dirección del cliente",
+          "Nombre del propietario o complejo de apartamentos",
+          "Teléfono del propietario o complejo de apartamentos",
+          "Pagos mensuales",
+          "¿Cuánto tiempo ha vivido el cliente en esta dirección?"
+        ]
+      },
+
+      "sourceOfIncome": {
+        "title": "Fuente de ingresos",
+        "items": [
+          "Empleador actual (si no tiene, indique la fuente de ingresos)",
+          "Número de teléfono del empleador",
+          "Cargo / Puesto",
+          "Tiempo en el trabajo actual",
+          "Horario / Turno de trabajo",
+          "Dirección del empleador",
+          "Nombre del supervisor",
+          "Teléfono del supervisor",
+          "Ingreso neto",
+          "Frecuencia de pago"
+        ]
+      },
+
+      "references": {
+        "title": "4 referencias personales",
+        "items": [
+          "Las referencias #1 y #2 deben ser familiares",
+          "Relación",
+          "Número de teléfono",
+          "Dirección Ciudad/Estado/Código Postal"
+        ]
+      }
+    },
+
+    "footer": {
+      "needHelp": "¿Necesita ayuda?",
+      "call": "Llame: 901-557-1809",
+      "hours": "Horario de atención: lunes a viernes de 9 a.m. a 6 p.m. hora central."
+    }
+  },
+  "becomeDealer": {
+    "title": "Seleccione su ejecutivo de cuenta",
+    "startApplication": "Inicie su solicitud - Haga clic aquí",
+    "accountExecutive": "Ejecutivo de cuenta"
+  },
+  "contact": {
+    "success": "Formulario enviado correctamente.",
+    "submit": "Enviar",
+    "submitting": "Enviando...",
+    "errors": {
+      "required": "Este campo es obligatorio",
+      "invalidEmail": "Ingrese una dirección de correo electrónico válida",
+      "submitFailed": "No se pudo enviar el formulario."
+    },
+    "fields": {
+      "fullName": "Nombre completo *",
+      "title": "Cargo *",
+      "storeName": "Nombre de la tienda *",
+      "phone": "Número de teléfono *",
+      "email": "Correo electrónico *",
+      "selectStoreType": "--- Seleccione el tipo de tienda ---",
+      "businessAddress": "Dirección del negocio *",
+      "city": "Ciudad *",
+      "state": "Estado *",
+      "zipCode": "Código postal *",
+      "numberOfLocations": "Número de ubicaciones *",
+      "comments": "Comentarios"
+    },
+    "storeTypes": {
+      "multiCarrierStore": "Tienda multioperador",
+      "boostMobile": "Boost Mobile",
+      "cricketWireless": "Cricket Wireless",
+      "metroPCS": "Metro PCS",
+      "totalWireless": "Total Wireless",
+      "electronicStore": "Tienda de electrónica"
+    }
+  },
+  "header": {
+    "nav": {
+      "home": "Inicio",
+      "howItWorks": "¿Cómo funciona?",
+      "informationRequired": "Información requerida",
+      "becomeDealer": "Conviértase en distribuidor"
+    },
+    "contactUs": "Contáctenos",
+    "loginPortal": "Iniciar sesión en el portal"
+  },
+  "footer": {
+    "address": "3124 Brother Blvd, Suite 104, Bartlett, TN 38133",
+    "call": "LLAMAR:",
+    "copyright": "© 2026 Low Weekly Payments",
+    "links": {
+      "application": "Solicitud LWP",
+      "terms": "Términos de uso",
+      "privacy": "Política de privacidad",
+      "faq": "Preguntas frecuentes"
+    }
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Encuentre respuestas a nuestras preguntas más comunes. ¿Necesita ayuda? Comuníquese con nuestro equipo de soporte en cualquier momento.",
+
+    "questions": {
+      "q1": {
+        "question": "¿Cuál es la política de precios de LowWeeklyPayments?",
+        "answer": "LowWeeklyPayments ofrece las MEJORES opciones de precios de cualquier programa de alquiler con opción a compra (Rent-To-Own, RTO) del país."
+      },
+
+      "q2": {
+        "question": "¿Qué opciones de pago ofrece LowWeeklyPayments?",
+        "answer": "Todas las cuentas cuentan con múltiples opciones de pago detalladas en nuestros contratos de alquiler con opción a compra, incluyendo una opción de pago al contado dentro de los primeros 90 días y una opción de pago anticipado. Después de los primeros 90 días, los clientes pueden liquidar su cuenta en cualquier momento mediante un pago único con un 40% de descuento sobre el saldo restante."
+      },
+
+      "q3": {
+        "question": "¿Cuáles son los principales beneficios para los clientes de LowWeeklyPayments?",
+        "answer": "No requerimos número de Seguro Social, cuenta bancaria, verificación de crédito ni licencia de conducir. Los clientes pueden realizar pagos semanales en efectivo en la tienda y completar sus solicitudes rápidamente, ya sea en línea o directamente en la tienda."
+      },
+
+      "q4": {
+        "question": "¿La aprobación de LowWeeklyPayments se basa en mi puntaje de crédito?",
+        "answer": "No. Su historial crediticio no se consulta ni se verifica. La aprobación se basa completamente en la información proporcionada en su solicitud."
+      },
+
+      "q5": {
+        "question": "¿Puedo comprar cualquier producto que desee a través de LowWeeklyPayments?",
+        "answer": "En la mayoría de los casos, sí. Si es aprobado, podemos comprar la mayoría de los productos vendidos en establecimientos participantes. Los artículos perecederos, consumibles, de uso personal y la ropa generalmente no son elegibles. Todos los productos son revisados individualmente."
+      },
+
+      "q6": {
+        "question": "¿Qué información necesita la tienda para completar la solicitud?",
+        "answer": "La tienda debe proporcionar información del establecimiento, detalles del producto y el precio exacto de venta, incluyendo cualquier accesorio. Una vez solicitado el monto de financiamiento, este no podrá modificarse."
+      },
+
+      "q7": {
+        "question": "¿Qué documentos me solicitará LowWeeklyPayments?",
+        "answer": "Principalmente calificamos a los clientes a través de sus referencias personales. Si falta información o esta no puede verificarse, podríamos solicitar documentos adicionales para confirmar la identidad o los ingresos. Los documentos requeridos varían según cada solicitud."
+      },
+
+      "q8": {
+        "question": "¿Cuál es la política de devoluciones de LowWeeklyPayments?",
+        "answer": "Todos los artículos pueden devolverse dentro de los primeros 30 días, sin preguntas. Además, no cobramos ninguna tarifa por devolución."
+      },
+
+      "q9": {
+        "question": "¿La tienda cobrará una tarifa de reposición al devolver un artículo?",
+        "answer": "La tienda puede cobrar una tarifa de reposición dependiendo del valor y del tipo de producto que se devuelva."
+      },
+
+      "q10": {
+        "question": "¿Cómo pago mi cuenta de LowWeeklyPayments?",
+        "answer": "Los pagos generalmente se configuran automáticamente utilizando la información de la tarjeta de crédito del cliente. En algunos casos, los pagos pueden realizarse llamando a nuestro centro de servicio cuando correspondan. Los clientes también pueden realizar pagos en efectivo en la tienda donde adquirieron el producto."
+      },
+
+      "q11": {
+        "question": "¿Cómo puedo obtener aprobación para más productos?",
+        "answer": "LowWeeklyPayments evalúa periódicamente las cuentas de sus clientes y notificará a aquellos que sean elegibles para obtener productos o acuerdos adicionales."
+      }
+    }
+  },
+  "terms": {
+    "title": "Términos de Uso",
+    "lastUpdated": "Última actualización: enero de 2025",
+    "overview": {
+      "title": "Descripción general",
+      "paragraph1": "Estos Términos de Uso (\"Acuerdo\") rigen su uso de www.lowweeklypayments, All Prepaid LLC, su empresa matriz, subsidiarias y afiliadas, agentes o cesionarios (colectivamente, \"www.lowweeklypayments\", \"nosotros\" o \"nuestro\"), el sitio web (\"Sitio\") y, según corresponda, los quioscos en tienda para (a) registrarse para una cuenta, (b) solicitar un contrato de arrendamiento o de alquiler con opción a compra, (c) arrendar o alquilar cualquier producto, (d) ordenar, devolver o cambiar productos, y/o (e) solicitar información sobre nuestros productos y servicios (colectivamente, \"Servicios\").",
+      "warning": "SI USTED NO ESTÁ DE ACUERDO CON ALGUNO DE LOS TÉRMINOS DE ESTE ACUERDO, NO ACCEDA NI UTILICE EL SITIO NI NINGUNA INFORMACIÓN CONTENIDA EN ÉL, INCLUYENDO LOS SERVICIOS. SU USO DEL SITIO SE CONSIDERARÁ COMO SU ACEPTACIÓN, Y SI ACTÚA EN NOMBRE DE UN TERCERO, LA ACEPTACIÓN DE DICHO TERCERO, DE CUMPLIR CON CADA UNO DE LOS TÉRMINOS ESTABLECIDOS A CONTINUACIÓN.",
+      "paragraph2": "Usted acepta utilizar este sitio web únicamente con el propósito de acceder a los \"Servicios\" según se definen en este documento. Este Acuerdo complementa cualquier otro acuerdo que rija o esté relacionado con su arrendamiento o alquiler de cualquier producto (\"Acuerdo Sustantivo\"). Sin embargo, en caso de conflicto entre este Acuerdo y cualquier Acuerdo Sustantivo, prevalecerá el Acuerdo Sustantivo.",
+      "paragraph3": "El Sitio puede cambiar ocasionalmente y este Acuerdo puede actualizarse para reflejar dichos cambios. Su uso de los Servicios, según sean modificados, constituye su aceptación de cualquier cambio realizado a este Acuerdo."
+    },
+    "benefits": {
+      "title": "Beneficios principales para los clientes de LowWeeklyPayments",
+      "items": [
+        "No requerimos número de Seguro Social",
+        "No requerimos cuenta bancaria",
+        "Sin verificación de crédito – Sin licencia de conducir",
+        "Los clientes pueden realizar sus pagos semanales en efectivo en la tienda",
+        "Solicitud rápida en tienda, ya sea en línea o con nuevas solicitudes en papel"
+      ]
+    },
+    "services": {
+      "title": "1. SERVICIOS",
+      "submittingApplications": {
+        "title": "Envío de solicitudes a través del Sitio.",
+        "text": "Para acceder al Sitio y enviar o revisar solicitudes para el arrendamiento o alquiler de cualquier producto, necesitará una conexión funcional a Internet mediante un navegador web en su computadora, si corresponde, y deberá utilizar una dirección de correo electrónico actual y válida. Usted es responsable de todos los costos, gastos y cargos relacionados con su acceso a los Servicios. Le ayudamos a proteger la seguridad de su información solicitándole que autentique su identidad mediante una identificación con foto y otros documentos de identificación emitidos por el gobierno o no emitidos por el gobierno, que pueden incluir, entre otros, pasaporte, identificación militar y tarjeta de votante.",
+        "text2": "Una vez que haya presentado correctamente la prueba de identificación, podrá acceder a todos los Servicios disponibles a través de su cuenta."
+      },
+      "email": {
+        "title": "Su dirección de correo electrónico",
+        "text": "Usted acepta mantener o actualizar la dirección de correo electrónico que nos proporciona cuando se registra por primera vez para la aprobación del contrato de alquiler con opción a compra. Usamos su dirección de correo electrónico para comunicarnos con usted electrónicamente. El correo electrónico no es seguro y usted entiende que existen riesgos asociados con la comunicación por correo electrónico, incluyendo la posibilidad de acceso no autorizado, no recibir correos electrónicos porque fueron enviados incorrectamente o a una carpeta de correo no deseado, y su imposibilidad de acceder al correo electrónico debido a cortes de energía, fallas de hardware o software, fallas de su computadora o dispositivo móvil, o asuntos que afecten Internet o su acceso a Internet. No dependa del correo electrónico si necesita contactarnos de inmediato. Por razones de seguridad, es posible que no podamos responder a ciertas solicitudes por correo electrónico."
+      },
+      "security": {
+        "title": "Autenticación y seguridad",
+        "text": "Le ayudamos a proteger la seguridad de su información solicitándole que autentique su identidad, es decir, que demuestre que usted es quien dice ser, cada vez que inicia sesión para acceder a los Servicios. Usted reconoce y acepta que no compartirá sus credenciales de inicio de sesión con ninguna otra persona, y que cualquier uso de sus credenciales será considerado por nosotros como su autorización para completar cualquier transacción solicitada. Usted acepta que si proporciona sus credenciales de inicio de sesión y/o acceso a un dispositivo reconocido a otra persona, está autorizando a esa persona a realizar transacciones en su nombre, y usted será responsable de la actividad de dicha persona en este sitio web. Esto significa que debe mantener sus credenciales de inicio de sesión personales y confidenciales, y no divulgar esta información a ninguna otra persona, a menos que haya autorizado a esa persona a actuar en su nombre. Es recomendable proteger su seguridad cerrando siempre su navegador web después de cerrar sesión en los Servicios."
+      },
+      "technicalIssues": {
+        "title": "Cómo contactarnos por problemas técnicos",
+        "text": "Siempre puede contactarnos al (786)-383-9318 o a help@lowweeklypayments.com por problemas técnicos relacionados con el Sitio."
+      }
+    },
+    "limitations": {
+      "title": "2. LIMITACIONES DE LOS SERVICIOS, RESPONSABILIDADES Y RECURSOS",
+      "intro": "Esta sección proporciona información importante sobre cómo se limita su uso de los Servicios, cómo se limitan nuestras responsabilidades hacia usted, cualquier responsabilidad relacionada que usted pueda tener o incurrir, y los recursos disponibles para usted.",
+      "unauthorizedActivity": {
+        "title": "Responsabilidad por actividad no autorizada",
+        "text": "Si cree que los Servicios se han utilizado sin su permiso, debe informarnos de inmediato. Llamarnos por teléfono es la mejor manera de mantener sus posibles pérdidas al mínimo. Llámenos al (786)-383-9318 para reportar acceso no autorizado. Si no nos notifica, usted podría ser responsable de toda actividad no autorizada en su cuenta."
+      },
+      "timeliness": {
+        "title": "Actualidad de la información",
+        "text": "La información de la cuenta que obtiene a través de los Servicios está actualizada al cierre del día hábil anterior."
+      },
+      "availability": {
+        "title": "Disponibilidad de los Servicios",
+        "text": "Ocasionalmente, debido al mantenimiento, fallas o errores de software, equipos o dispositivos de telecomunicaciones, volumen inusual de transacciones o razones similares, es posible que los Servicios no estén disponibles para su uso. Intentamos minimizar los períodos de tiempo durante los cuales los Servicios no están disponibles. Sin embargo, usted acepta que no seremos responsables por ninguna pérdida, daño, costo o gasto que pueda sufrir o incurrir, directa o indirectamente, debido a la falta de disponibilidad de los servicios o del servidor, independientemente de si podríamos haber evitado o reducido la duración de dicha falta de disponibilidad tomando alguna acción dentro de nuestro control razonable. También acepta que no seremos responsables por ninguna pérdida, daño, costo o gasto que pueda sufrir o incurrir, directa o indirectamente, como resultado de su imposibilidad de acceder al servidor o a los Servicios causada directa o indirectamente, total o parcialmente, por su computadora o dispositivo móvil, su incapacidad para establecer una conexión a Internet, su proveedor de servicios de Internet, o las limitaciones o restricciones de capacidad u otras limitaciones de Internet. Los Servicios no están destinados al uso por personas en ninguna jurisdicción o país donde dicho uso sea contrario a la ley o regulación aplicable. Podemos restringir los Servicios durante los períodos en que usted se encuentre en un país donde el uso de los Servicios esté prohibido."
+      },
+      "termination": {
+        "title": "Denegación de acceso y terminación de los Servicios",
+        "text": "Podemos, en cualquier momento, con o sin causa y sin previo aviso, denegarle el acceso a los Servicios. Podemos terminar este Acuerdo y su acceso a los Servicios, total o parcialmente, en cualquier momento sin previo aviso. Si no hay actividad de inicio de sesión asociada con alguna de sus cuentas durante un período consecutivo de doce meses, es posible que ya no pueda acceder a los Servicios. En caso de que terminemos este Acuerdo, cualquier solicitud que haya enviado continuará siendo evaluada, y cualquier contrato de alquiler o arrendamiento existente que tenga con nosotros, o acuerdos de préstamo que tenga a través de nosotros, permanecerán vigentes."
+      }
+    },
+    "additional": {
+      "title": "3. DISPOSICIONES ADICIONALES",
+      "privacy": {
+        "title": "Privacidad y arbitraje",
+        "text": "Revise nuestra Política de Privacidad y el Acuerdo de Arbitraje en su portal de cliente, si corresponde, los cuales también rigen su uso del Sitio y los Servicios, para comprender nuestras prácticas."
+      },
+      "copyright": {
+        "title": "Derechos de autor",
+        "text": "Todo el contenido incluido o disponible a través del sitio, como texto, gráficos, logotipos, íconos de botones, imágenes, clips de audio, descargas digitales, compilaciones de datos y software, es de nuestra propiedad o de nuestros proveedores de contenido y está protegido por las leyes de derechos de autor de Estados Unidos e internacionales. La compilación de todo el contenido incluido o disponible a través del sitio es de nuestra propiedad exclusiva y está protegida por las leyes de derechos de autor de EE. UU. e internacionales."
+      },
+      "trademarks": {
+        "title": "Marcas comerciales",
+        "text": "Los gráficos, logotipos, encabezados de página, íconos de botones, scripts y nombres de servicios incluidos o disponibles a través del Sitio son nuestras marcas comerciales o imagen comercial en EE. UU. y otros países. Nuestras marcas comerciales e imagen comercial no pueden utilizarse en relación con ningún producto o servicio que no sea nuestro, de ninguna manera que pueda causar confusión entre los clientes, o de ninguna manera que nos desacredite o perjudique. Todas las demás marcas comerciales que no son de nuestra propiedad y que aparecen en el Sitio son propiedad de sus respectivos dueños, quienes pueden o no estar afiliados, conectados o patrocinados por nosotros."
+      },
+      "license": {
+        "title": "Licencia y acceso",
+        "items": [
+          "No se permite la reventa ni el uso comercial del Sitio o los Servicios, ni de su contenido",
+          "No se permite la recopilación ni el uso de listados, descripciones o precios de productos",
+          "No se permite el uso derivado del Sitio",
+          "No se permite descargar, copiar ni utilizar información de cuentas en beneficio de terceros",
+          "No se permite el uso de minería de datos, robots o herramientas similares de recopilación y extracción de datos"
+        ],
+        "text": "Todos los derechos que no se le concedan expresamente en este Acuerdo quedan reservados y retenidos por nosotros o por nuestros licenciantes, proveedores, editores, titulares de derechos u otros proveedores de contenido. Ningún Servicio, ni ninguna parte del Sitio, puede ser reproducido, duplicado, copiado, vendido, revendido, visitado o explotado de otro modo con fines comerciales sin nuestro consentimiento expreso por escrito."
+      },
+      "otherBusinesses": {
+        "title": "Otros negocios",
+        "text": "Terceros distintos a nosotros operan tiendas, prestan servicios o proporcionan el alquiler o la compra de productos a través del Sitio. Además, podemos proporcionar enlaces a los sitios de empresas afiliadas y ciertos otros negocios. No somos responsables de examinar o evaluar, ni garantizamos las ofertas de, ninguno de estos negocios o individuos ni el contenido de sus sitios web. No asumimos ninguna responsabilidad u obligación por las acciones, productos y contenido de todos estos y otros terceros. Usted debe revisar cuidadosamente sus declaraciones de privacidad y otras condiciones de uso."
+      },
+      "disclaimer": {
+        "title": "Exención de garantías y limitación de responsabilidad",
+        "warning": "EL SITIO Y TODA LA INFORMACIÓN, CONTENIDO, MATERIALES, PRODUCTOS, INCLUYENDO SOFTWARE, Y OTROS SERVICIOS INCLUIDOS O DISPONIBLES A TRAVÉS DEL SITIO SE PROPORCIONAN \"TAL CUAL\" Y \"SEGÚN DISPONIBILIDAD\", A MENOS QUE SE ESPECIFIQUE LO CONTRARIO POR ESCRITO. NO REALIZAMOS DECLARACIONES NI GARANTÍAS DE NINGÚN TIPO, EXPRESAS O IMPLÍCITAS, SOBRE EL FUNCIONAMIENTO DEL SITIO, O LA INFORMACIÓN, CONTENIDO, MATERIALES, PRODUCTOS, INCLUYENDO SOFTWARE, U OTROS SERVICIOS INCLUIDOS O DISPONIBLES A TRAVÉS DEL SITIO O SERVICIOS, A MENOS QUE SE ESPECIFIQUE LO CONTRARIO POR ESCRITO. USTED ACEPTA EXPRESAMENTE QUE SU USO DEL SITIO Y LOS SERVICIOS ES BAJO SU PROPIO RIESGO.",
+        "text": "EN LA MÁXIMA MEDIDA PERMITIDA POR LA LEY APLICABLE, RENUNCIAMOS A TODAS LAS GARANTÍAS, EXPRESAS O IMPLÍCITAS, INCLUYENDO, ENTRE OTRAS, LAS GARANTÍAS IMPLÍCITAS DE COMERCIABILIDAD E IDONEIDAD PARA UN PROPÓSITO PARTICULAR. NO GARANTIZAMOS QUE EL SITIO, LA INFORMACIÓN, CONTENIDO, MATERIALES, PRODUCTOS, INCLUYENDO SOFTWARE, U OTROS SERVICIOS INCLUIDOS O DISPONIBLES A TRAVÉS DEL SITIO, NUESTROS SERVIDORES O COMUNICACIONES ELECTRÓNICAS ENVIADAS POR NOSOTROS ESTÉN LIBRES DE VIRUS U OTROS COMPONENTES DAÑINOS. NO SEREMOS RESPONSABLES POR DAÑOS DE NINGÚN TIPO DERIVADOS DEL USO DEL SITIO, O DE CUALQUIER INFORMACIÓN, CONTENIDO, MATERIALES, PRODUCTOS, INCLUYENDO SOFTWARE, U OTROS SERVICIOS INCLUIDOS O DISPONIBLES A TRAVÉS DEL SITIO, INCLUYENDO, ENTRE OTROS, DAÑOS DIRECTOS, INDIRECTOS, INCIDENTALES, PUNITIVOS Y CONSECUENTES, A MENOS QUE SE ESPECIFIQUE LO CONTRARIO POR ESCRITO."
+      },
+      "governingLaw": {
+        "title": "Ley aplicable",
+        "text": "Este Acuerdo, el uso del Sitio y los Servicios, salvo que se indique lo contrario en el acuerdo aplicable, se regirán por las leyes de Estados Unidos y del Estado de Florida, sin dar efecto a ninguna norma de conflicto de leyes en contrario."
+      },
+      "additionalTerms": {
+        "title": "Términos y condiciones adicionales",
+        "items": [
+          "En este sitio, usamos los términos \"Contrato de alquiler con opción a compra\" y \"Acuerdo\" de la misma manera. También podemos usar el término \"Arrendamiento\" indistintamente. Bajo su Arrendamiento, usted puede: (a) realizar todos los pagos semanales indicados en el Contrato de alquiler con opción a compra para adquirir la propiedad de los bienes alquilados o (b) alquilar los bienes por un plazo mínimo de al menos 6 semanas de pagos y luego finalizar el arrendamiento cuando lo desee pagando el saldo restante o devolviendo los bienes.",
+          "La oferta de entrega gratuita aplica a entregas programadas de ciertos productos electrónicos de consumo principales y muebles para el hogar. Usted es responsable de cualquier cargo adicional de instalación, mano de obra extensa o piezas adicionales que puedan requerirse para algunos electrodomésticos principales, incluyendo refrigeradores, lavadoras y secadoras, estufas y hornos, microondas y lavavajillas. El tiempo de entrega variará según la dirección de entrega y la disponibilidad de inventario.",
+          "No es necesario tener buen crédito, pero no todas las personas con mal crédito son aprobadas. Nuestro objetivo es ayudar a los consumidores con mal crédito a obtener los productos que desean mediante un Contrato de alquiler con opción a compra.",
+          "A nuestra sola discreción, puede requerirse un pago inicial de una semana al inicio de un nuevo Acuerdo.",
+          "Usted será propietario de los artículos y no tendrá que pagar ningún monto adicional si paga el valor total del contrato de alquiler con opción a compra más los impuestos sobre ventas. Esto puede ser mayor que el precio que pagaría si comprara los artículos directamente.",
+          "Usted acepta cumplir con todas las leyes y regulaciones nacionales e internacionales aplicables relacionadas con el uso de nuestros Servicios."
+        ]
+      }
+    }
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: 15 de febrero de 2023",
+    "introduction": {
+      "title": "Introducción",
+      "paragraph1": "Esta Política de Privacidad describe nuestras políticas y procedimientos sobre la recopilación, uso y divulgación de su información cuando utiliza el Servicio y le informa sobre sus derechos de privacidad y cómo la ley lo protege.",
+      "paragraph2": "Utilizamos sus Datos Personales para proporcionar y mejorar el Servicio. Al utilizar el Servicio, usted acepta la recopilación y uso de información de acuerdo con esta Política de Privacidad."
+    },
+    "benefits": {
+      "title": "Beneficios Principales para el Cliente de LowWeeklyPayments",
+      "items": [
+        "No requerimos un número de Seguro Social",
+        "No requerimos una Cuenta Bancaria",
+        "Sin Verificación de Crédito – Sin Licencia de Conducir",
+        "Los clientes pueden hacer sus pagos semanales en efectivo en la tienda",
+        "Solicitud rápida en la tienda, ya sea en línea o con nuevas aplicaciones en papel"
+      ]
+    },
+    "interpretation": {
+      "title": "Interpretación y Definiciones",
+      "interpretationTitle": "Interpretación",
+      "interpretationText": "Las palabras cuya letra inicial está en mayúscula tienen significados definidos bajo las siguientes condiciones. Las siguientes definiciones tendrán el mismo significado independientemente de que aparezcan en singular o en plural.",
+      "definitionsTitle": "Definiciones",
+      "definitions": {
+        "account": "significa una cuenta única creada para que usted acceda a nuestro Servicio o a partes de nuestro Servicio.",
+        "affiliate": "significa una entidad que controla, es controlada por o está bajo control común con una parte, donde \"control\" significa propiedad del 50% o más de las acciones, participación accionaria u otros valores con derecho a voto para la elección de directores u otra autoridad administrativa.",
+        "business": "a efectos de CCPA/CPRA, se refiere a la Compañía como la entidad legal que recopila la información personal de los Consumidores y determina los fines y medios del procesamiento de la información personal de los Consumidores, o en cuyo nombre se recopila dicha información y que sola, o junto con otros, determina los fines y medios del procesamiento de la información personal de los consumidores, que hace negocios en el Estado de California.",
+        "ccpa": "se refiere a la Ley de Privacidad del Consumidor de California (\"CCPA\") modificada por la Ley de Derechos de Privacidad de California de 2020 (\"CPRA\").",
+        "company": "referida como \"la Compañía\", \"Nosotros\", \"Nos\" o \"Nuestro\" en este Acuerdo se refiere a All prepaid LLC, 15800 Pines Blvd. Suite 341. Pembroke Pines, FL 33027.",
+        "consumer": "a efectos de la CCPA/CPRA, significa una persona natural que es residente de California. Un residente, según lo define la ley, incluye (1) todo individuo que se encuentra en los EE. UU. para un propósito que no sea temporal o transitorio, y (2) todo individuo que tiene domicilio en los EE. UU. que está fuera de los EE. UU. para un propósito temporal o transitorio.",
+        "cookies": "son pequeños archivos que se colocan en su computadora, dispositivo móvil o cualquier otro dispositivo por un sitio web, que contienen los detalles de su historial de navegación en ese sitio web entre sus muchos usos.",
+        "device": "significa cualquier dispositivo que pueda acceder al Servicio, como una computadora, un teléfono celular o una tableta digital.",
+        "dnt": "es un concepto que ha sido promovido por las autoridades reguladoras de EE. UU., en particular la Comisión Federal de Comercio de EE. UU. (FTC), para que la industria de Internet desarrolle e implemente un mecanismo que permita a los usuarios de Internet controlar el seguimiento de sus actividades en línea en todos los sitios web.",
+        "personalData": "es cualquier información que se relaciona con un individuo identificado o identificable. A los efectos de la CCPA/CPRA, Datos Personales significa cualquier información que identifica, se relaciona, describe o puede asociarse, o podría vincularse razonablemente, directa o indirectamente, con usted.",
+        "service": "se refiere al Sitio Web.",
+        "serviceProvider": "significa cualquier persona natural o legal que procesa los datos en nombre de la Compañía. Se refiere a empresas o individuos de terceros empleados por la Compañía para facilitar el Servicio, proporcionar el Servicio en nombre de la Compañía, realizar servicios relacionados con el Servicio o ayudar a la Compañía a analizar cómo se utiliza el Servicio.",
+        "usageData": "se refiere a los datos recopilados automáticamente, ya sea generados por el uso del Servicio o de la propia infraestructura del Servicio (por ejemplo, la duración de una visita a la página).",
+        "website": "se refiere a Low weekly payments, accesible desde www.lowweeklypayments.com",
+        "you": "significa el individuo que accede o utiliza el Servicio, o la empresa u otra entidad legal en cuyo nombre dicho individuo accede o utiliza el Servicio, según corresponda."
+      }
+    },
+    "collectingData": {
+      "title": "Recopilación y Uso de sus Datos Personales",
+      "typesOfData": {
+        "title": "Tipos de Datos Recopilados",
+        "personalData": "Datos Personales",
+        "personalDataText": "Mientras utiliza nuestro Servicio, podemos solicitarle que nos proporcione cierta información de identificación personal que puede usarse para contactarlo o identificarlo. La información de identificación personal puede incluir, entre otros:",
+        "personalDataItems": [
+          "Dirección de correo electrónico",
+          "Nombre y apellidos",
+          "Número de teléfono",
+          "Dirección, Estado, Provincia, Código Postal, Ciudad"
+        ],
+        "usageData": "Datos de Uso",
+        "usageDataText": "Los Datos de Uso se recopilan automáticamente cuando se utiliza el Servicio. Los Datos de Uso pueden incluir información como la dirección de Protocolo de Internet de su Dispositivo (por ejemplo, dirección IP), tipo de navegador, versión del navegador, las páginas de nuestro Servicio que visita, la hora y fecha de su visita, el tiempo pasado en esas páginas, identificadores únicos del dispositivo y otros datos de diagnóstico."
+      },
+      "trackingTechnologies": {
+        "title": "Tecnologías de Seguimiento y Cookies",
+        "text": "Utilizamos Cookies y tecnologías de seguimiento similares para rastrear la actividad en nuestro Servicio y almacenar cierta información. Las tecnologías de seguimiento utilizadas son balizas, etiquetas y scripts para recopilar y rastrear información y para mejorar y analizar nuestro Servicio.",
+        "cookiesText": "Una cookie es un pequeño archivo colocado en su Dispositivo. Puede instruir a su navegador para que rechace todas las Cookies o para que indique cuando se está enviando una Cookie.",
+        "webBeaconsText": "Ciertas secciones de nuestro Servicio y nuestros correos electrónicos pueden contener pequeños archivos electrónicos conocidos como web beacons que permiten a la Compañía, por ejemplo, contar los usuarios que han visitado esas páginas o han abierto un correo electrónico.",
+        "cookieTypes": "Las cookies pueden ser \"Persistentes\" o \"de Sesión\". Las cookies persistentes permanecen en su computadora personal o dispositivo móvil cuando se desconecta, mientras que las cookies de sesión se eliminan tan pronto como cierra su navegador web.",
+        "necessaryCookies": "Cookies Necesarias/Esenciales - Tipo: Cookies de Sesión, Administradas por: Nosotros. Estas Cookies son esenciales para proporcionarle los servicios disponibles a través del Sitio Web y permitirle utilizar algunas de sus características.",
+        "policyCookies": "Cookies de Política/Aceptación de Cookies - Tipo: Cookies Persistentes, Administradas por: Nosotros. Estas Cookies identifican si los usuarios han aceptado el uso de cookies en el Sitio Web.",
+        "functionalityCookies": "Cookies de Funcionalidad - Tipo: Cookies Persistentes, Administradas por: Nosotros. Estas Cookies nos permiten recordar las decisiones que toma cuando usa el Sitio Web."
+      },
+      "useOfPersonalData": {
+        "title": "Uso de sus Datos Personales",
+        "text": "La Compañía puede usar Datos Personales para los siguientes fines:",
+        "purposes": [
+          "Proporcionar y mantener nuestro Servicio, incluido el monitoreo del uso de nuestro Servicio.",
+          "Administrar su Cuenta: administrar su registro como usuario del Servicio.",
+          "Para la ejecución de un contrato.",
+          "Para contactarlo: por correo electrónico, llamadas telefónicas, SMS u otras formas equivalentes de comunicación electrónica.",
+          "Para proporcionarle noticias, ofertas especiales e información general sobre otros bienes, servicios y eventos que ofrecemos.",
+          "Para administrar sus solicitudes.",
+          "Para transferencias comerciales.",
+          "Para otros fines, como análisis de datos, identificación de tendencias de uso, determinación de la efectividad de nuestras campañas promocionales."
+        ],
+        "shareTitle": "Podemos compartir su información personal en las siguientes situaciones:",
+        "shareSituations": [
+          "Con Proveedores de Servicios",
+          "Para transferencias comerciales",
+          "Con Afiliados",
+          "Con socios comerciales",
+          "Con otros usuarios",
+          "Con su consentimiento"
+        ]
+      },
+      "retention": {
+        "title": "Retención de sus Datos Personales",
+        "text": "La Compañía conservará sus Datos Personales solo durante el tiempo que sea necesario para los fines establecidos en esta Política de Privacidad."
+      },
+      "transfer": {
+        "title": "Transferencia de sus Datos Personales",
+        "text": "Su información, incluidos los Datos Personales, se procesa en las oficinas operativas de la Compañía y en cualquier otro lugar donde se encuentren las partes involucradas en el procesamiento."
+      },
+      "deleteData": {
+        "title": "Eliminar sus Datos Personales",
+        "text": "Usted tiene derecho a eliminar o solicitar que ayudemos a eliminar los Datos Personales que hemos recopilado sobre usted."
+      },
+      "disclosure": {
+        "title": "Divulgación de sus Datos Personales",
+        "businessTransactions": "Transacciones Comerciales",
+        "businessTransactionsText": "Si la Compañía participa en una fusión, adquisición o venta de activos, sus Datos Personales pueden ser transferidos.",
+        "lawEnforcement": "Cumplimiento de la Ley",
+        "lawEnforcementText": "En ciertas circunstancias, la Compañía puede estar obligada a divulgar sus Datos Personales si así lo requiere la ley.",
+        "otherLegal": "Otros Requisitos Legales",
+        "otherLegalItems": [
+          "Cumplir con una obligación legal",
+          "Proteger y defender los derechos o propiedad de la Compañía",
+          "Prevenir o investigar posibles irregularidades relacionadas con el Servicio",
+          "Proteger la seguridad personal de los Usuarios del Servicio o del público",
+          "Protegerse contra responsabilidad legal"
+        ]
+      },
+      "security": {
+        "title": "Seguridad de sus Datos Personales",
+        "text": "La seguridad de sus Datos Personales es importante para Nosotros, pero recuerde que ningún método de transmisión por Internet o método de almacenamiento electrónico es 100% seguro."
+      }
+    },
+    "ccpa": {
+      "title": "Aviso de Privacidad CCPA/CPRA",
+      "text": "Esta sección de aviso de privacidad para residentes de California complementa la información contenida en nuestra Política de Privacidad y se aplica únicamente a todos los visitantes, usuarios y otras personas que residen en el Estado de California.",
+      "categoriesTitle": "Categorías de Información Personal Recopilada",
+      "categoriesText": "Recopilamos información que identifica, se relaciona, describe, hace referencia, puede asociarse o podría vincularse razonablemente, directa o indirectamente, con un Consumidor o Dispositivo específico.",
+      "table": {
+        "category": "Categoría",
+        "examples": "Ejemplos",
+        "collected": "Recopilado",
+        "rows": {
+          "A": {
+            "name": "A: Identificadores",
+            "examples": "Nombre real, alias, dirección postal, dirección IP, correo electrónico",
+            "collected": "Sí"
+          },
+          "B": {
+            "name": "B: Registros de Clientes de CA",
+            "examples": "Nombre, firma, dirección, teléfono",
+            "collected": "Sí"
+          },
+          "C": {
+            "name": "C: Clasificaciones Protegidas",
+            "examples": "Edad, raza, color, religión",
+            "collected": "No"
+          },
+          "D": {
+            "name": "D: Información Comercial",
+            "examples": "Registros de productos o servicios comprados",
+            "collected": "No"
+          },
+          "E": {
+            "name": "E: Información Biométrica",
+            "examples": "Huellas dactilares, reconocimiento facial",
+            "collected": "No"
+          },
+          "F": {
+            "name": "F: Actividad de Red",
+            "examples": "Interacción con nuestro Servicio",
+            "collected": "Sí"
+          },
+          "G": {
+            "name": "G: Datos de Geolocalización",
+            "examples": "Ubicación física aproximada",
+            "collected": "No"
+          },
+          "H": {
+            "name": "H: Datos Sensoriales",
+            "examples": "Información de audio, electrónica, visual",
+            "collected": "No"
+          },
+          "I": {
+            "name": "I: Información Profesional",
+            "examples": "Historial laboral",
+            "collected": "No"
+          },
+          "J": {
+            "name": "J: Educación No Pública",
+            "examples": "Calificaciones, expedientes académicos",
+            "collected": "No"
+          },
+          "K": {
+            "name": "K: Inferencias",
+            "examples": "Perfil de preferencias",
+            "collected": "No"
+          },
+          "L": {
+            "name": "L: Información Personal Sensible",
+            "examples": "Inicio de sesión, contraseña",
+            "collected": "Sí"
+          }
+        }
+      },
+      "rightsTitle": "Sus Derechos bajo la CCPA/CPRA",
+      "rightsText": "Si es residente de California, tiene los siguientes derechos:",
+      "rightsItems": [
+        "Derecho a ser notificado",
+        "Derecho a saber/acceder",
+        "Derecho a decir no a la venta o intercambio de Datos Personales",
+        "Derecho a corregir Datos Personales inexactos",
+        "Derecho a limitar el uso y divulgación de Datos Personales sensibles",
+        "Derecho a eliminar Datos Personales",
+        "Derecho a no ser discriminado"
+      ],
+      "doNotSell": {
+        "title": "No Vender Mi Información Personal",
+        "text": "Tiene derecho a optar por no participar en la venta de su información personal."
+      },
+      "childrensPrivacy": {
+        "title": "Privacidad de los Menores",
+        "text": "Nuestro Servicio no está dirigido a ninguna persona menor de 13 años. No recopilamos a sabiendas información de identificación personal de ninguna persona menor de 13 años."
+      },
+      "linksToOtherWebsites": {
+        "title": "Enlaces a Otros Sitios Web",
+        "text": "Nuestro Servicio puede contener enlaces a otros sitios web que no son operados por Nosotros."
+      },
+      "changesToPolicy": {
+        "title": "Cambios a esta Política de Privacidad",
+        "text": "Podemos actualizar nuestra Política de Privacidad de vez en cuando. Le notificaremos cualquier cambio publicando la nueva Política de Privacidad en esta página."
+      }
+    },
+    "footer": {
+      "contactText": "Para cualquier pregunta sobre esta Política de Privacidad, contáctenos en:",
+      "address": "All prepaid LLC, 15800 Pines Blvd. Suite 341. Pembroke Pines, FL 33027"
+    }
+  }
+}

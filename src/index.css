@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+
+/* variables */
+:root {
+    --primary-color: #0098ee;
+    --secondary-color: #0D0D0D;
+    --text-color: #0D0D0D;
+}
+
+
+
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+
+.animate-marquee {
+    animation: marquee 35s linear infinite;
+}
+
+.animate-marquee-reverse {
+    animation: marquee-reverse 35s linear infinite;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-none {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.glow-border {
+    position: relative;
+    border-radius: 12px;
+}
+
+.glow-border::before {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    background: linear-gradient(45deg, #00f5ff, #ff00ff, #00f5ff);
+    z-index: -1;
+    filter: blur(8px);
+}

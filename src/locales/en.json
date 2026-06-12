@@ -1,0 +1,589 @@
+{
+  "home": {
+    "hero": {
+      "title": "Sell Your Products Now With",
+      "mainImageAlt": "Hero",
+      "secondaryImageAlt": "Home",
+      "bannerAlt": "Hero Banner",
+      "features": {
+        "1": "No Credit Check",
+        "2": "No Bank Account Needed",
+        "3": "No Down Payment",
+        "4": "No Social Security Number",
+        "5": "No Social Security Number"
+      }
+    },
+    "opportunity": {
+      "title": "Great Opportunity for Multi Carrier and Branded Stores"
+    },
+    "customers": {
+      "title": "Open the door to new customers",
+      "subtitle": "Increase your revenue and boost your sales",
+      "imageAlt": "Increase sales"
+    },
+    "credit": {
+      "title": "Credit approval from $350 and up to $1500",
+      "subtitle": "Get funded within 2 business days"
+    },
+    "payment": {
+      "title": "CUSTOMER MAKE PAYMENT AT YOUR STORE"
+    },
+    "electronics": {
+      "title": "Electronics",
+      "subtitle": "Popular Categories",
+      "categories": {
+        "macbook": "MacBook",
+        "laptops": "Laptops",
+        "speakers": "Speakers",
+        "ipads": "iPads",
+        "electricScooter": "Electric Scooter",
+        "gameConsole": "Game Console",
+        "phone": "Phone",
+        "smartWatches": "Smart Watches"
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "badges": {
+      "step1": "Step 1",
+      "step2": "Step 2",
+      "step3": "Step 3",
+      "step4": "Step 4",
+      "step5": "Step 5",
+      "step6": "Step 6"
+    },
+    "steps": {
+      "sellProduct": "Sell Your Product",
+      "fillApplication": "Fill Customer Application",
+      "waitApproval": "Wait for Approval",
+      "signAgreement": "Customer Sign Agreement",
+      "deliverProduct": "Deliver Product to Customer",
+      "getFunded": "Get Funded on the Next Business Day"
+    }
+  },
+  "information": {
+    "important": "Important: Please read",
+    "step": "Step",
+    "customerInfoTitle": "Information Required by Customer",
+    "storeInfoTitle": "Information Required by Store",
+
+    "customerRequirements": {
+      "item1": "Customers must provide correct information on the application to speed up the approval process.",
+      "item2": "Applications may be denied if the information provided is incorrect; these cannot be resubmitted using the same details.",
+      "item3": "We verify information by calling the customer and their references. The approval process typically takes between 10 minutes and one hour."
+    },
+
+    "storeRequirements": {
+      "item1": "Provide accurate information about the product you are selling. If the information is incorrect, your application will be denied.",
+      "item2": "Enter the exact selling price of the product, including any accessories.",
+      "item3": "Provide the exact description, make, and model of the product, including the IMEI, serial number, and color.",
+      "item4": "Enter the exact amount you are requesting for approval. Once the amount is requested and approved, it cannot be changed."
+    },
+
+    "steps": {
+      "customerInformation": {
+        "title": "Customer Information",
+        "items": [
+          "First and Last Name",
+          "Date of Birth",
+          "Customer Phone Number",
+          "Customer Email",
+          "Customer Address",
+          "Landlord or Apartment Complex Name",
+          "Landlord or Apartment Complex Phone Number",
+          "Monthly Payments",
+          "How long has the customer lived at this address?"
+        ]
+      },
+
+      "sourceOfIncome": {
+        "title": "Source of Income",
+        "items": [
+          "Current Employer (if none, indicate source of income)",
+          "Employer Phone Number",
+          "Job Title / Position",
+          "Time at Current Job",
+          "Work Hours / Shift",
+          "Employer Address",
+          "Supervisor Name",
+          "Supervisor Phone Number",
+          "Take-Home Pay",
+          "Payday Frequency"
+        ]
+      },
+
+      "references": {
+        "title": "4 Personal References",
+        "items": [
+          "Reference #1 and #2 must be a relative",
+          "Relationship",
+          "Phone Number",
+          "Address City/State/Zip or Postal Code"
+        ]
+      }
+    },
+
+    "footer": {
+      "needHelp": "Need Help?",
+      "call": "Call: 901-557-1809",
+      "hours": "Business Hours are Monday to Friday 9am to 6pm central time."
+    }
+  },
+  "becomeDealer": {
+    "title": "Select Your Account Executive",
+    "startApplication": "Start Your Application - Click Here",
+    "accountExecutive": "Account Executive"
+  },
+  "contact": {
+    "success": "Form submitted successfully.",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "errors": {
+      "required": "This field is required",
+      "invalidEmail": "Enter a valid email address",
+      "submitFailed": "Failed to submit form."
+    },
+    "fields": {
+      "fullName": "Full Name *",
+      "title": "Title *",
+      "storeName": "Store Name *",
+      "phone": "Phone Number *",
+      "email": "Email *",
+      "selectStoreType": "--- Select Store Type ---",
+      "businessAddress": "Business Address *",
+      "city": "City *",
+      "state": "State *",
+      "zipCode": "Zip Code *",
+      "numberOfLocations": "Number of Locations *",
+      "comments": "Comments"
+    },
+    "storeTypes": {
+      "multiCarrierStore": "Multi Carrier Store",
+      "boostMobile": "Boost Mobile",
+      "cricketWireless": "Cricket Wireless",
+      "metroPCS": "Metro PCS",
+      "totalWireless": "Total Wireless",
+      "electronicStore": "Electronic Store"
+    }
+  },
+  "header": {
+    "nav": {
+      "home": "Home",
+      "howItWorks": "How Does It Work?",
+      "informationRequired": "Information Required",
+      "becomeDealer": "Become a Dealer"
+    },
+    "contactUs": "Contact Us",
+    "loginPortal": "Login to Portal"
+  },
+  "footer": {
+    "address": "3124 Brother Blvd, Suite 104, Bartlett, TN 38133",
+    "call": "CALL:",
+    "copyright": "© 2026 Low Weekly Payments",
+    "links": {
+      "application": "LWP Application",
+      "terms": "Terms of Use",
+      "privacy": "Privacy Policy",
+      "faq": "FAQs"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Find answers to our most common questions. Need help? Contact support anytime.",
+
+    "questions": {
+      "q1": {
+        "question": "What is the pricing policy for LowWeeklyPayments?",
+        "answer": "LowWeeklyPayments offers the BEST pricing options of any Rent-To-Own (RTO) program in the country."
+      },
+
+      "q2": {
+        "question": "What payment options does LowWeeklyPayments offer?",
+        "answer": "All accounts are given multiple payment options detailed in our rent-to-own agreements, including a 90-day same-as-cash price and an early payment option. After the first 90 days, customers can pay off their account anytime with a one-time payment at a 40% discount on the remaining balance."
+      },
+
+      "q3": {
+        "question": "What are the core customer benefits of LowWeeklyPayments?",
+        "answer": "We do not require a Social Security number, bank account, credit check, or driver's license. Customers can make weekly payments in cash at the store, and applications can be completed quickly either online or in-store."
+      },
+
+      "q4": {
+        "question": "Is LowWeeklyPayments' approval based on my credit score?",
+        "answer": "No. Your credit is not run or checked. Approval is based entirely on the information provided in your application."
+      },
+
+      "q5": {
+        "question": "Can I buy any product I want through LowWeeklyPayments?",
+        "answer": "For the most part, yes. If approved, we can purchase most products sold at participating retail locations. Perishable, consumable, personal-sized items, and clothing are generally not eligible. All products are reviewed individually."
+      },
+
+      "q6": {
+        "question": "What information is needed from the store to complete the application?",
+        "answer": "The store must provide store information, product details, and the exact selling price including any accessories. Once the financing amount is requested, it cannot be changed."
+      },
+
+      "q7": {
+        "question": "What documents will LowWeeklyPayments ask from me?",
+        "answer": "We primarily qualify customers through their references. If information is missing or cannot be verified, we may request additional documents to confirm identity or income. Required documents vary by application."
+      },
+
+      "q8": {
+        "question": "What is LowWeeklyPayments' return policy?",
+        "answer": "All items are returnable within 30 days, no questions asked. We also do not charge any return fee."
+      },
+
+      "q9": {
+        "question": "Will the store charge a restocking fee when returning an item?",
+        "answer": "The store may charge a restocking fee depending on the value and type of the product being returned."
+      },
+
+      "q10": {
+        "question": "How do I pay my LowWeeklyPayments account?",
+        "answer": "Payments are typically set up automatically using a customer's credit card information. In some cases, payments can be made by calling our service center when due. Customers may also pay in cash at the store where the product was purchased."
+      },
+
+      "q11": {
+        "question": "How do I get approved for more products?",
+        "answer": "LowWeeklyPayments regularly evaluates customer accounts and will notify eligible customers who qualify for additional products or agreements."
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms of Use",
+    "lastUpdated": "Last updated: January 2025",
+    "overview": {
+      "title": "Overview",
+      "paragraph1": "This Terms of Use (\"Agreement\") governs your use of www.lowweeklypayments, All Prepaid LLC, their parent company, subsidiaries and affiliates, agents or assigns (collectively, \"www.lowweeklypayments\" \"we,\" \"us,\" or \"our\"), website and (\"Site\") and, as applicable, on-site kiosks to (a) register for an account, (b) apply for a lease or Rent to Own agreement, (c) lease or rent any products, (d) order, return or exchange products, and/or (e) request information about our products and services (collectively, \"Services\").",
+      "warning": "IF YOU DO NOT AGREE WITH ANY OF THE TERMS OF THIS AGREEMENT, DO NOT ACCESS OR OTHERWISE USE THE SITE OR ANY INFORMATION CONTAINED IN IT, INCLUDING THE SERVICES. YOUR USE OF THE SITE SHALL BE DEEMED TO BE YOUR (AND IF ACTING ON BEHALF OF A THIRD PARTY, SUCH THIRD PARTY'S) AGREEMENT TO ABIDE BY EACH OF THE TERMS SET FORTH BELOW.",
+      "paragraph2": "You agree to use this website only for the purposes of accessing the \"Services\" as defined herein. This Agreement supplements any other agreement governing or relating to your lease or rental of any products (\"Substantive Agreement\"). However, in the event of a conflict between this Agreement and any Substantive Agreement, the Substantive Agreement controls.",
+      "paragraph3": "The Site may change from time-to-time and this Agreement may be updated to reflect such changes. Your use of the Services, as modified, constitutes your acceptance of any changes to this Agreement."
+    },
+    "benefits": {
+      "title": "Core Customer Benefits of LowWeeklyPayments",
+      "items": [
+        "We do not require a Social Security number",
+        "We do not require a Bank Account",
+        "No Credit Check – No Driver License",
+        "Customers can make their weekly payments in cash at the store",
+        "Fast, in-store application either online or with new paper applications"
+      ]
+    },
+    "services": {
+      "title": "1. SERVICES",
+      "submittingApplications": {
+        "title": "Submitting Applications Through the Site.",
+        "text": "To access the Site and submit and review applications for the lease or rental of any products, you will need a working connection to the Internet via a web browser on your computer (if applicable) and will require the use of a current, valid e-mail address. You are responsible for all costs, expenses, and fees related to your access to the Services. We help you protect the security of your information by requiring you to authenticate your identity by way of a Picture ID and other Government and non-government-issued IDs, which may include but is not limited to Passport, Military IDs, and Voting Card.",
+        "text2": "Once you have properly submitted proof of Identification, you can access all available Services through your account."
+      },
+      "email": {
+        "title": "Your E-mail Address",
+        "text": "You agree to maintain or update the e-mail address that you provide to us when you first register for the Rent to own agreement approval. We use your e-mail address to communicate with you electronically. E-mail is not secure and you understand that there are risks associated with communicating via e-mail, including the possibility of unauthorized access, failure to receive e-mails because it has been misdirected or sent to a spam folder, and your inability to access e-mail due to power outages, hardware or software malfunctions, or failures of your computer or mobile device, or matters affecting the Internet or your access to the Internet. Do not rely on e-mail if you need to contact us immediately. For security reasons, we may not be able to respond to certain e-mail requests."
+      },
+      "security": {
+        "title": "Authentication and Security",
+        "text": "We help you protect the security of your information by requiring you to authenticate your identity (i.e., prove that you are who you say you are) each time you sign-in to access the Services. You acknowledge and agree that you will not share your sign-in credentials with any other person, and that any use of your sign-in credentials will be relied upon by us and shall constitute your authorization to complete any transactions that are requested. You agree that if you give your sign-in credentials and/or access to a recognized device to another, you are authorizing that person to transact on your behalf, and you are responsible for his/her activity on this website. This means that you must keep your sign-in credentials personal and confidential, and not disclose this information to any other person, unless you have authorized that person to act on your behalf. It is a good idea to protect your security by always closing your web browser after logging out of the Services."
+      },
+      "technicalIssues": {
+        "title": "Contacting Us About Technical Issues",
+        "text": "You can always contact us at (786)-383-9318 or help@lowweeklypayments.com regarding technical issues with the Site."
+      }
+    },
+    "limitations": {
+      "title": "2. SERVICES LIMITATIONS, LIABILITIES, AND REMEDIES",
+      "intro": "This section provides important information about how your use of the Services is limited, how our responsibilities to you are limited, any related liabilities you may have or incur, and your available remedies.",
+      "unauthorizedActivity": {
+        "title": "Liability for Unauthorized Activity",
+        "text": "If you believe that the Services have been used without your permission, you must tell us immediately. Telephoning us is the best way of keeping your possible losses to a minimum. Call us at (786)-383-9318 to report unauthorized access. If you fail to notify us, you may be liable for all unauthorized activity on your account."
+      },
+      "timeliness": {
+        "title": "Timeliness of Information",
+        "text": "The account information you obtain through the Services is current as of the close of the previous business day."
+      },
+      "availability": {
+        "title": "Availability of the Services",
+        "text": "From time to time, due to the performance of maintenance, malfunctions or failures of software, equipment or telecommunications devices, unusual transaction volume or similar reasons the Services may not be available for your use. We try to minimize the periods of time during which Services are unavailable. However, you agree that we shall not be responsible for any loss, damages, costs, or expenses you may suffer or incur, directly or indirectly, because of the unavailability of the services or the server, regardless of whether we could have prevented or reduced the duration of such unavailability by taking any action within our reasonable control. You also agree that we shall not be responsible for any loss, damages, costs, or expenses you may suffer or incur, directly or indirectly, as a result of your inability to access the server or the Services caused directly or indirectly, in whole or in part, by your computer or mobile device, your inability to establish a connection to the Internet, your Internet Service Provider, or capacity or other limitations or constraints of the Internet. The Services are not intended for use by persons in any jurisdiction or country where such is contrary to applicable law or regulation. We may restrict the Services during times you are in a country where use of the Services is prohibited."
+      },
+      "termination": {
+        "title": "Denial of Access and Termination of the Services",
+        "text": "We may at any time, with or without cause, and without prior notice to you, deny you access to the Services. We may terminate this Agreement and your access to Services in whole or in part at any time without prior notice to you. If there is no log-in activity associated with any of your accounts for a consecutive twelve-month period, you may no longer be able to access the Services. In the event we terminate this Agreement, any applications you have submitted will continue to be evaluated, and any existing rental or lease agreement you have with us or loan agreements you have through us shall remain in effect."
+      }
+    },
+    "additional": {
+      "title": "3. ADDITIONAL PROVISIONS",
+      "privacy": {
+        "title": "Privacy & Arbitration",
+        "text": "Please review our Privacy Policy and the Arbitration Agreement in your customer portal (if applicable), which also govern your use of the Site and Services, to understand our practices."
+      },
+      "copyright": {
+        "title": "Copyright",
+        "text": "All content included in or made available through the site, such as text, graphics, logos, button icons, images, audio clips, digital downloads, data compilations, and software is our property or the property of our content suppliers and protected by United States and international copyright laws. The compilation of all content included in or made available through the site is our exclusive property and protected by U.S. and international copyright laws."
+      },
+      "trademarks": {
+        "title": "Trademarks",
+        "text": "Graphics, logos, page headers, button icons, scripts, and service names included in or made available through the Site are our trademarks or trade dress in the U.S. and other countries. Our trademarks and trade dress may not be used in connection with any product or service that is not ours, in any manner that is likely to cause confusion among customers, or in any manner that disparages or discredits us. All other trademarks not owned by us that appear in the Site are the property of their respective owners, who may or may not be affiliated with, connected to, or sponsored by us."
+      },
+      "license": {
+        "title": "License and Access",
+        "items": [
+          "No resale or commercial use of the Site or Services, or its contents",
+          "No collection and use of any product listings, descriptions, or prices",
+          "No derivative use of the Site",
+          "No downloading, copying, or other use of account information for the benefit of any third party",
+          "No use of data mining, robots, or similar data gathering and extraction tools"
+        ],
+        "text": "All rights not expressly granted to you in Agreement are reserved and retained by us or our licensors, suppliers, publishers, rightsholders, or other content providers. No Service, nor any part of any of the Site, may be reproduced, duplicated, copied, sold, resold, visited, or otherwise exploited for any commercial purpose without our express written consent."
+      },
+      "otherBusinesses": {
+        "title": "Other Businesses",
+        "text": "Parties other than us operate stores, provide services, or provide for the rental or purchase of products through the Site. In addition, we may provide links to the sites of affiliated companies and certain other businesses. We are not responsible for examining or evaluating, and we do not warrant the offerings of, any of these businesses or individuals or the content of their websites. We do not assume any responsibility or liability for the actions, product, and content of all these and any other third parties. You should carefully review their privacy statements and other conditions of use."
+      },
+      "disclaimer": {
+        "title": "Disclaimer of Warranties and Limitation of Liability",
+        "warning": "THE SITE AND ALL INFORMATION, CONTENT, MATERIALS, PRODUCTS (INCLUDING SOFTWARE) AND OTHER SERVICES INCLUDED ON OR OTHERWISE MADE AVAILABLE TO YOU THROUGH THE SITE ARE PROVIDED ON AN \"AS IS\" AND \"AS AVAILABLE\" BASIS, UNLESS OTHERWISE SPECIFIED IN WRITING. WE MAKE NO REPRESENTATIONS OR WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, AS TO THE OPERATION OF THE SITE, OR THE INFORMATION, CONTENT, MATERIALS, PRODUCTS (INCLUDING SOFTWARE) OR OTHER SERVICES INCLUDED ON OR OTHERWISE MADE AVAILABLE TO YOU THROUGH THE SITE OR SERVICES, UNLESS OTHERWISE SPECIFIED IN WRITING. YOU EXPRESSLY AGREE THAT YOUR USE OF THE SITE AND SERVICES IS AT YOUR SOLE RISK.",
+        "text": "TO THE FULL EXTENT PERMISSIBLE BY APPLICABLE LAW, WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. WE DO NOT WARRANT THAT THE SITE, INFORMATION, CONTENT, MATERIALS, PRODUCTS (INCLUDING SOFTWARE) OR OTHER SERVICES INCLUDED ON OR OTHERWISE MADE AVAILABLE TO YOU THROUGH THE SITE, OUR SERVERS OR ELECTRONIC COMMUNICATIONS SENT FROM US ARE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS. WE WILL NOT BE LIABLE FOR ANY DAMAGES OF ANY KIND ARISING FROM THE USE OF ANY THE SITE, OR FROM ANY INFORMATION, CONTENT, MATERIALS, PRODUCTS (INCLUDING SOFTWARE) OR OTHER SERVICES INCLUDED ON OR OTHERWISE MADE AVAILABLE TO YOU THROUGH THE SITE, INCLUDING, BUT NOT LIMITED TO DIRECT, INDIRECT, INCIDENTAL, PUNITIVE, AND CONSEQUENTIAL DAMAGES, UNLESS OTHERWISE SPECIFIED IN WRITING."
+      },
+      "governingLaw": {
+        "title": "Governing Law",
+        "text": "This Agreement, the use of the Site and the Services, unless otherwise indicated in the applicable agreement, will be governed by the laws of the United States and the State of Florida without giving effect to any conflict of laws to the contrary."
+      },
+      "additionalTerms": {
+        "title": "Additional Terms & Conditions",
+        "items": [
+          "On this site, we use the terms \"Rent to Own Agreement\" and \"Agreement\" the same. We may also use the term \"Lease\" interchangeably. Under your Lease, you can: (a) make all weekly payments as indicated on the Rent to Own Agreement to acquire Ownership of the rented goods or (b) rent the goods for a minimum term of at least 6 weeks of payments and then end the lease whenever you want by paying off the remaining balance or returning the goods.",
+          "Free delivery offer applies to scheduled delivery on select major consumer electronics goods and home furniture. You are responsible for any extra installation charges, extensive labor or additional parts that may be required for some major appliances including refrigerators, washers & dryers, ranges & ovens, microwaves, and dishwashers. The delivery time will vary by delivery address and Inventory availability.",
+          "Good credit is not necessary but not everyone with bad credit is approved. Our goal is to help consumers with bad credit get goods they want through a Rent to Own Agreement.",
+          "At our sole discretion, an initial one-week payment may be required at the start of a new Agreement.",
+          "You will own the item(s) and not have to pay any additional amount if you pay the full Rent to Own agreement value plus sales taxes. This may be higher than the price you would pay if you were to purchase the item(s) directly.",
+          "You agree to comply with all applicable domestic and international laws and regulations regarding the use of our Services."
+        ]
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: February 15, 2023",
+    "introduction": {
+      "title": "Introduction",
+      "paragraph1": "This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.",
+      "paragraph2": "We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy."
+    },
+    "benefits": {
+      "title": "Core Customer Benefits of LowWeeklyPayments",
+      "items": [
+        "We do not require a Social Security number",
+        "We do not require a Bank Account",
+        "No Credit Check – No Driver License",
+        "Customers can make their weekly payments in cash at the store",
+        "Fast, in-store application either online or with new paper applications"
+      ]
+    },
+    "interpretation": {
+      "title": "Interpretation and Definitions",
+      "interpretationTitle": "Interpretation",
+      "interpretationText": "The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.",
+      "definitionsTitle": "Definitions",
+      "definitions": {
+        "account": "means a unique account created for You to access our Service or parts of our Service.",
+        "affiliate": "means an entity that controls, is controlled by or is under common control with a party, where \"control\" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.",
+        "business": "for the purpose of CCPA/CPRA, refers to the Company as the legal entity that collects Consumers' personal information and determines the purposes and means of the processing of Consumers' personal information, or on behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumers' personal information, that does business in the State of California.",
+        "ccpa": "refers to California Consumer Privacy Act (the \"CCPA\") as amended by the California Privacy Rights Act of 2020 (the \"CPRA\").",
+        "company": "referred to as either \"the Company\", \"We\", \"Us\" or \"Our\" in this Agreement refers to All prepaid LLC, 15800 Pines Blvd. Suite 341. Pembroke Pines, FL 33027.",
+        "consumer": "for the purpose of the CCPA/CPRA, means a natural person who is a California resident. A resident, as defined in the law, includes (1) every individual who is in the USA for other than a temporary or transitory purpose, and (2) every individual who is domiciled in the USA who is outside the USA for a temporary or transitory purpose.",
+        "cookies": "are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses.",
+        "device": "means any device that can access the Service such as a computer, a cellphone or a digital tablet.",
+        "dnt": "is a concept that has been promoted by US regulatory authorities, in particular the U.S. Federal Trade Commission (FTC), for the Internet industry to develop and implement a mechanism for allowing internet users to control the tracking of their online activities across websites.",
+        "personalData": "is any information that relates to an identified or identifiable individual. For the purposes of the CCPA/CPRA, Personal Data means any information that identifies, relates to, describes or is capable of being associated with, or could reasonably be linked, directly or indirectly, with You.",
+        "service": "refers to the Website.",
+        "serviceProvider": "means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used.",
+        "usageData": "refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).",
+        "website": "refers to Low weekly payments, accessible from www.lowweeklypayments.com",
+        "you": "means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable."
+      }
+    },
+    "collectingData": {
+      "title": "Collecting and Using Your Personal Data",
+      "typesOfData": {
+        "title": "Types of Data Collected",
+        "personalData": "Personal Data",
+        "personalDataText": "While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:",
+        "personalDataItems": [
+          "Email address",
+          "First name and last name",
+          "Phone number",
+          "Address, State, Province, ZIP/Postal code, City"
+        ],
+        "usageData": "Usage Data",
+        "usageDataText": "Usage Data is collected automatically when using the Service. Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data. When You access the Service by or through a mobile device, we may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data. We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device."
+      },
+      "trackingTechnologies": {
+        "title": "Tracking Technologies and Cookies",
+        "text": "We use Cookies and similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze Our Service. The technologies We use may include:",
+        "cookiesText": "A cookie is a small file placed on Your Device. You can instruct Your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if You do not accept Cookies, You may not be able to use some parts of our Service. Unless you have adjusted Your browser setting so that it will refuse Cookies, our Service may use Cookies.",
+        "webBeaconsText": "Certain sections of our Service and our emails may contain small electronic files known as web beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs) that permit the Company, for example, to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of a certain section and verifying system and server integrity).",
+        "cookieTypes": "Cookies can be \"Persistent\" or \"Session\" Cookies. Persistent Cookies remain on Your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close Your web browser. We use both Session and Persistent Cookies for the purposes set out below:",
+        "necessaryCookies": "Necessary / Essential Cookies - Type: Session Cookies, Administered by: Us. These Cookies are essential to provide You with services available through the Website and to enable You to use some of its features. They help to authenticate users and prevent fraudulent use of user accounts. Without these Cookies, the services that You have asked for cannot be provided, and We only use these Cookies to provide You with those services.",
+        "policyCookies": "Cookies Policy / Notice Acceptance Cookies - Type: Persistent Cookies, Administered by: Us. These Cookies identify if users have accepted the use of cookies on the Website.",
+        "functionalityCookies": "Functionality Cookies - Type: Persistent Cookies, Administered by: Us. These Cookies allow us to remember choices You make when You use the Website, such as remembering your login details or language preference. The purpose of these Cookies is to provide You with a more personal experience and to avoid You having to re-enter your preferences every time You use the Website."
+      },
+      "useOfPersonalData": {
+        "title": "Use of Your Personal Data",
+        "text": "The Company may use Personal Data for the following purposes:",
+        "purposes": [
+          "To provide and maintain our Service, including to monitor the usage of our Service.",
+          "To manage Your Account: to manage Your registration as a user of the Service.",
+          "For the performance of a contract: the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.",
+          "To contact You: By email, telephone calls, SMS, or other equivalent forms of electronic communication.",
+          "To provide You with news, special offers and general information about other goods, services and events which we offer.",
+          "To manage Your requests: To attend and manage Your requests to Us.",
+          "For business transfers: We may use Your information to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Our assets.",
+          "For other purposes: Such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Service."
+        ],
+        "shareTitle": "We may share Your personal information in the following situations:",
+        "shareSituations": [
+          "With Service Providers: To monitor and analyze the use of our Service, to contact You.",
+          "For business transfers: In connection with any merger, sale of Company assets, financing, or acquisition.",
+          "With Affiliates: We will require those affiliates to honor this Privacy Policy.",
+          "With business partners: To offer You certain products, services or promotions.",
+          "With other users: When You share personal information in public areas.",
+          "With Your consent: For any other purpose with Your consent."
+        ]
+      },
+      "retention": {
+        "title": "Retention of Your Personal Data",
+        "text": "The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations, resolve disputes, and enforce our legal agreements and policies. The Company will also retain Usage Data for internal analysis purposes."
+      },
+      "transfer": {
+        "title": "Transfer of Your Personal Data",
+        "text": "Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. This means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ. Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that transfer."
+      },
+      "deleteData": {
+        "title": "Delete Your Personal Data",
+        "text": "You have the right to delete or request that We assist in deleting the Personal Data that We have collected about You. Our Service may give You the ability to delete certain information about You from within the Service. You may update, amend, or delete Your information at any time by signing in to Your Account and visiting the account settings section. You may also contact Us to request access to, correct, or delete any personal information that You have provided to Us."
+      },
+      "disclosure": {
+        "title": "Disclosure of Your Personal Data",
+        "businessTransactions": "Business Transactions",
+        "businessTransactionsText": "If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.",
+        "lawEnforcement": "Law Enforcement",
+        "lawEnforcementText": "Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities.",
+        "otherLegal": "Other Legal Requirements",
+        "otherLegalItems": [
+          "Comply with a legal obligation",
+          "Protect and defend the rights or property of the Company",
+          "Prevent or investigate possible wrongdoing in connection with the Service",
+          "Protect the personal safety of Users of the Service or the public",
+          "Protect against legal liability"
+        ]
+      },
+      "security": {
+        "title": "Security of Your Personal Data",
+        "text": "The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security."
+      }
+    },
+    "ccpa": {
+      "title": "CCPA/CPRA Privacy Notice",
+      "text": "This privacy notice section for California residents supplements the information contained in Our Privacy Policy and it applies solely to all visitors, users, and others who reside in the State of California.",
+      "categoriesTitle": "Categories of Personal Information Collected",
+      "categoriesText": "We collect information that identifies, relates to, describes, references, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular Consumer or Device. The following is a list of categories of personal information which we may collect or may have been collected from California residents within the last twelve (12) months.",
+      "table": {
+        "category": "Category",
+        "examples": "Examples",
+        "collected": "Collected",
+        "rows": {
+          "A": {
+            "name": "A: Identifiers",
+            "examples": "Real name, alias, postal address, IP address, email, account name, driver's license, passport",
+            "collected": "Yes"
+          },
+          "B": {
+            "name": "B: CA Customer Records",
+            "examples": "Name, signature, address, phone, passport, license, employment, financial info",
+            "collected": "Yes"
+          },
+          "C": {
+            "name": "C: Protected Classifications",
+            "examples": "Age, race, color, religion, marital status, disability, gender, veteran status",
+            "collected": "No"
+          },
+          "D": {
+            "name": "D: Commercial Information",
+            "examples": "Records of products or services purchased or considered",
+            "collected": "No"
+          },
+          "E": {
+            "name": "E: Biometric Information",
+            "examples": "Fingerprints, faceprints, voiceprints, iris scans, keystroke patterns",
+            "collected": "No"
+          },
+          "F": {
+            "name": "F: Network Activity",
+            "examples": "Interaction with our Service or advertisement",
+            "collected": "Yes"
+          },
+          "G": {
+            "name": "G: Geolocation Data",
+            "examples": "Approximate physical location",
+            "collected": "No"
+          },
+          "H": {
+            "name": "H: Sensory Data",
+            "examples": "Audio, electronic, visual, thermal, olfactory information",
+            "collected": "No"
+          },
+          "I": {
+            "name": "I: Professional/Employment",
+            "examples": "Job history or performance evaluations",
+            "collected": "No"
+          },
+          "J": {
+            "name": "J: Non-public Education",
+            "examples": "Grades, transcripts, class lists, student schedules",
+            "collected": "No"
+          },
+          "K": {
+            "name": "K: Inferences",
+            "examples": "Profile reflecting preferences, characteristics, behavior",
+            "collected": "No"
+          },
+          "L": {
+            "name": "L: Sensitive Personal Info",
+            "examples": "Account login, password, geolocation data",
+            "collected": "Yes"
+          }
+        }
+      },
+      "rightsTitle": "Your Rights under the CCPA/CPRA",
+      "rightsText": "If You are a resident of California, you have the following rights:",
+      "rightsItems": [
+        "The right to notice - to be notified which categories of Personal Data are being collected",
+        "The right to know/access - to request disclosure of information about Our collection, use, sale, and disclosure",
+        "The right to say no to the sale or sharing of Personal Data (opt-out)",
+        "The right to correct inaccurate Personal Data",
+        "The right to limit use and disclosure of sensitive Personal Data",
+        "The right to delete Personal Data",
+        "The right not to be discriminated against for exercising any of Your consumer rights"
+      ],
+      "doNotSell": {
+        "title": "Do Not Sell My Personal Information",
+        "text": "You have the right to opt-out of the sale of Your personal information. Once We receive and confirm a verifiable consumer request from You, we will stop selling Your personal information. To exercise Your right to opt-out, please contact Us."
+      },
+      "childrensPrivacy": {
+        "title": "Children's Privacy",
+        "text": "Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, we take steps to remove that information from Our servers."
+      },
+      "linksToOtherWebsites": {
+        "title": "Links to Other Websites",
+        "text": "Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit. We have no control over and assume no responsibility for the content, privacy policies or practices of any third-party sites or services."
+      },
+      "changesToPolicy": {
+        "title": "Changes to this Privacy Policy",
+        "text": "We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page. We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the \"Last updated\" date at the top of this Privacy Policy. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page."
+      }
+    },
+    "footer": {
+      "contactText": "For any questions regarding this Privacy Policy, please contact us at:",
+      "address": "All prepaid LLC, 15800 Pines Blvd. Suite 341. Pembroke Pines, FL 33027"
+    }
+  }
+}
