@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 export default function LanguageModal() {
     const navigate = useNavigate();
+
     const [languageOpen, setLanguageOpen] = useState(false);
     const [disclaimerOpen, setDisclaimerOpen] = useState(false);
     const [offerOpen, setOfferOpen] = useState(false);
@@ -29,7 +30,8 @@ export default function LanguageModal() {
     }, []);
 
     const selectLanguage = (lang) => {
-        localStorage.setItem("lang", lang);
+        // Save selected language
+        localStorage.setItem("language", lang);
 
         setLanguageOpen(false);
 
@@ -39,7 +41,7 @@ export default function LanguageModal() {
             setDisclaimerOpen(true);
         }
     };
-    
+
     return (
         <>
             {languageOpen && (
@@ -50,9 +52,20 @@ export default function LanguageModal() {
                         className="w-180 mb-4"
                     />
 
-                    <div className="flex flex-row md:flex-row items-center justify-center gap-3">
-                        <img onClick={() => selectLanguage("en")} src="/assets/en.png" alt="" className="md:w-90 w-40 cursor-pointer" />
-                        <img onClick={() => selectLanguage("es")} src="/assets/ess.png" alt="" className="md:w-90 w-40 cursor-pointer" />
+                    <div className="flex flex-row items-center justify-center gap-3">
+                        <img
+                            onClick={() => selectLanguage("en")}
+                            src="/assets/en.png"
+                            alt="English"
+                            className="md:w-90 w-40 cursor-pointer"
+                        />
+
+                        <img
+                            onClick={() => selectLanguage("es")}
+                            src="/assets/ess.png"
+                            alt="Spanish"
+                            className="md:w-90 w-40 cursor-pointer"
+                        />
                     </div>
                 </div>
             )}
