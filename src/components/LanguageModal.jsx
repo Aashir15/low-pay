@@ -1,10 +1,9 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 export default function LanguageModal() {
     const navigate = useNavigate();
-
+    const [isChecking, setIsChecking] = useState(true);
     const [languageOpen, setLanguageOpen] = useState(false);
     const [disclaimerOpen, setDisclaimerOpen] = useState(false);
     const [offerOpen, setOfferOpen] = useState(false);
@@ -27,6 +26,8 @@ export default function LanguageModal() {
         } else if (!offerShown) {
             setOfferOpen(true);
         }
+
+        setIsChecking(false);
     }, []);
 
     const selectLanguage = (lang) => {
@@ -42,6 +43,7 @@ export default function LanguageModal() {
         }
     };
 
+
     return (
         <>
             {languageOpen && (
@@ -49,7 +51,7 @@ export default function LanguageModal() {
                     <img
                         src="/assets/hero.webp"
                         alt="Logo"
-                        className="w-180 mb-4"
+                        className="w-170 "
                     />
 
                     <div className="flex flex-row items-center justify-center gap-3">
