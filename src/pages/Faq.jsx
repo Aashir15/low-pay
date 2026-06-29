@@ -66,7 +66,7 @@ export default function Faq() {
             <div className="max-w-4xl mx-auto">
 
                 {/* HEADER */}
-                <div className="text-center mb-12">
+                <div className="text-center mb-10">
                     <h1 className="mb-4 text-center md:text-4xl text-3xl font-bold">{t("faq.title")}</h1>
                     <p className="mt-4 text-slate-600 text-lg">{t("faq.subtitle")}</p>
                 </div>
