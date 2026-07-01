@@ -167,6 +167,7 @@ export default function Contact() {
                         <div className="grid md:grid-cols-2 gap-5">
                             <input
                                 type="tel"
+                                name="phone"
                                 placeholder={t("contact.fields.phone")}
                                 value={formData.phone}
                                 onChange={handleChange}
