@@ -1,56 +1,79 @@
 import { useTranslation } from "react-i18next";
 
 const executives = [
-    "Claudia",
-    "Carla",
-    "Elizabeth",
-    "Maxie",
-    "Steven",
-    "Adam",
-    "Gregory",
+    {
+        name: "Elizabeth M",
+        link: "https://surgesetup.com/home.php?s=72057594037927936",
+    },
+    {
+        name: "Max Ventura",
+        link: "https://surgesetup.com/home.php?s=144115188075855872",
+    },
+    {
+        name: "Word Wireless",
+        link: "https://surgesetup.com/home.php?s=288230376151711744",
+    },
+    {
+        name: "Carla Arce",
+        link: "https://surgesetup.com/home.php?s=4611686018427387904",
+    },
+    {
+        name: "G & C Wireless Master LLC",
+        link: "https://surgesetup.com/home.php?s=ly3nLbAPuWJtre7S",
+    },
+    {
+        name: "Goldie M",
+        link: "https://surgesetup.com/home.php?s=2305843009213693952",
+    },
+    {
+        name: "RISS Holding",
+        link: "https://surgesetup.com/home.php?s=35184372088832",
+    },
+    {
+        name: "RISS Holding II",
+        link: "https://surgesetup.com/home.php?s=18014398509481984",
+    },
 ];
 
 export default function BecomeDealer() {
-
     const { t } = useTranslation();
 
     return (
-        <section className="md:py-12 py-8">
+        <section className="py-8 md:py-12">
             <div className="mx-auto max-w-6xl px-4">
-                <h2 className="mb-8 text-center md:text-4xl text-3xl font-bold">
+                <h2 className="mb-8 text-center text-3xl font-bold md:text-4xl">
                     {t("becomeDealer.title")}
                 </h2>
 
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
                     {executives.map((person, index) => (
                         <div
-                            key={index}
-                            className={`rounded-md border border-(--primary-color) glow-border bg-white p-5 text-center shadow-sm
-                                ${index === executives.length - 1
+                            key={person.name}
+                            className={`glow-border rounded-md border border-(--primary-color) bg-white p-5 text-center shadow-sm ${executives.length % 3 === 1 && index === executives.length - 1
                                     ? "lg:col-start-2"
                                     : ""
                                 }`}
                         >
                             <img
                                 src="/assets/surg.webp"
-                                alt={`${person} ${t("becomeDealer.accountExecutive")}`}
+                                alt={`${person.name} ${t("becomeDealer.accountExecutive")}`}
                                 className="mx-auto mb-4 h-24 w-24 object-contain"
                             />
 
                             <a
-                                href="https://surgesetup.com/home.php?s=18014398509481984"
+                                href={person.link}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="mb-4 inline-block bg-(--primary-color) rounded px-4 py-2 text-sm font-semibold text-white"
+                                className="mb-4 inline-block rounded bg-(--primary-color) px-4 py-2 text-sm font-semibold text-white"
                             >
                                 {t("becomeDealer.startApplication")}
                             </a>
 
-                            <h3 className="mb-2 text-4xl font-bold text-black">
-                                {person}
+                            <h3 className="mb-2 text-2xl font-bold text-black">
+                                {person.name}
                             </h3>
 
-                            <p className="text-xl text-gray-700">
+                            <p className="text-md text-gray-700">
                                 {t("becomeDealer.accountExecutive")}
                             </p>
                         </div>
