@@ -134,11 +134,10 @@ function Home() {
                 />
             </div>
 
-            <div className="flex justify-center bg-(--primary-color) py-8">
+            <div className="flex justify-center bg-linear-to-r from-[#025db3] via-[#0671af] to-[#4fc3ff] py-8">
                 <img
-                    src="assets/home-banner.webp"
-                    alt=""
-                    className="h-auto"
+                    src={isSpanish ? "/assets/need-es.webp" : "/assets/need-us.webp"}
+                    className="w-full max-w-2xl object-contain"
                 />
             </div>
 
@@ -154,7 +153,7 @@ function Home() {
                 </div>
             </div>
 
-            <div className="bg-(--primary-color) w-full flex justify-center py-6">
+            <div className="bg-linear-to-r from-[#025db3] via-[#0671af] to-[#4fc3ff] w-full flex justify-center py-6">
                 <h1 className="md:text-4xl text-2xl text-center text-white font-bold px-4">
                     {t("home.payment.title")}
                 </h1>
