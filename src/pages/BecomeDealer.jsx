@@ -2,36 +2,36 @@ import { useTranslation } from "react-i18next";
 
 const executives = [
     {
-        name: "Elizabeth M",
-        link: "https://surgesetup.com/home.php?s=72057594037927936",
-    },
-    {
-        name: "Max Ventura",
-        link: "https://surgesetup.com/home.php?s=144115188075855872",
-    },
-    {
-        name: "Word Wireless",
-        link: "https://surgesetup.com/home.php?s=288230376151711744",
-    },
-    {
-        name: "Carla Arce",
-        link: "https://surgesetup.com/home.php?s=4611686018427387904",
-    },
-    {
-        name: "G & C Wireless Master LLC",
-        link: "https://surgesetup.com/home.php?s=ly3nLbAPuWJtre7S",
-    },
-    {
-        name: "Goldie M",
-        link: "https://surgesetup.com/home.php?s=2305843009213693952",
-    },
-    {
-        name: "RISS Holding",
+        name: "Claudia",
         link: "https://surgesetup.com/home.php?s=35184372088832",
     },
     {
-        name: "RISS Holding II",
+        name: "Ray",
         link: "https://surgesetup.com/home.php?s=18014398509481984",
+    },
+    {
+        name: "Elizabeth",
+        link: "https://surgesetup.com/home.php?s=72057594037927936",
+    },
+    {
+        name: "Carla",
+        link: "https://surgesetup.com/home.php?s=4611686018427387904",
+    },
+    {
+        name: "Maxie",
+        link: "https://surgesetup.com/home.php?s=144115188075855872",
+    },
+    {
+        name: "Steven",
+        link: "https://surgesetup.com/home.php?s=288230376151711744",
+    },
+    {
+        name: "Gregory",
+        link: "https://surgesetup.com/home.php?s=ly3nLbAPuWJtre7S",
+    },
+    {
+        name: "Mike",
+        link: "https://surgesetup.com/home.php?s=2305843009213693952",
     },
 ];
 
