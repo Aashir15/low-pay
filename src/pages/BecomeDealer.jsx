@@ -33,6 +33,10 @@ const executives = [
         name: "Mike",
         link: "https://surgesetup.com/home.php?s=2305843009213693952",
     },
+    {
+        name: "Luis",
+        link: "https://surgesetup.com/home.php?s=sKAMr2RRgYQrWOCI",
+    },
 ];
 
 export default function BecomeDealer() {
