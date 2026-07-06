@@ -1,5 +1,5 @@
 import { Link, useParams } from "react-router-dom";
-import { MapPin } from "lucide-react";
+import { MapPin, Phone } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 
@@ -75,9 +75,12 @@ export default function Footer() {
                     {/* Right */}
                     <a
                         href="tel:9015571809"
-                        className="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded font-semibold text-md transition"
+                        className="inline-flex items-center gap-2 rounded bg-blue-600 px-6 py-2 text-md font-semibold text-white transition hover:bg-(--primary-color)"
                     >
-                        {t("footer.call")} 901-557-1809
+                        <Phone className="h-5 w-5" />
+                        <span className="font-sans tracking-wide">
+                            901-557-1809
+                        </span>
                     </a>
 
                 </div>

@@ -57,6 +57,14 @@
       "signAgreement": "Customer Sign Agreement",
       "deliverProduct": "Deliver Product to Customer",
       "getFunded": "Get Funded on the Next Business Day"
+    },
+    "disclosure": {
+      "title": "Rent-to-Own Program Disclosure",
+      "items": [
+        "Our rent-to-own program is a rental-purchase agreement, not a loan. We purchase the product and rent it to you in exchange for weekly rental payments.",
+        "You may obtain ownership by completing all scheduled payments, exercising an available early purchase option, or using the 90-day purchase option disclosed at the time of approval.",
+        "You may return the product at any time and terminate the agreement. However, all payments made are non-refundable and represent payment for the use of the product during the rental period. No refunds or credits will be issued for prior payments if the product is returned before ownership is obtained."
+      ]
     }
   },
   "information": {

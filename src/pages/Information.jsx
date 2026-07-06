@@ -67,9 +67,9 @@ export default function Information() {
             <div className="flex justify-center md:pb-6">
                 <Link to={`/${i18n.language}/become-dealer`} className="inline-block">
                     <img
-                        src={isSpanish ? "/assets/home-2-es.png" : "/assets/home-2.png"}
-                    alt={t("information.imageAlt")}
-                        className="h-auto w-160 cursor-pointer"
+                        src={isSpanish ? "/assets/hero-2-es.webp" : "/assets/hero-2.webp"}
+                        alt={t("information.imageAlt")}
+                        className="object-contain cursor-pointer"
                     />
                 </Link>
             </div>

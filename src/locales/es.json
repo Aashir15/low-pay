@@ -57,6 +57,14 @@
       "signAgreement": "El cliente firma el acuerdo",
       "deliverProduct": "Entregue el producto al cliente",
       "getFunded": "Reciba el financiamiento el siguiente día hábil"
+    },
+    "disclosure": {
+      "title": "Divulgación del Programa de Alquiler con Opción de Compra",
+      "items": [
+        "Nuestro programa de alquiler con opción de compra es un contrato de alquiler con opción de compra, no un préstamo. Compramos el producto y se lo alquilamos a cambio de pagos semanales.",
+        "Puede obtener la propiedad del producto al completar todos los pagos programados, ejercer una opción de compra anticipada disponible o utilizar la opción de compra a 90 días divulgada en el momento de la aprobación.",
+        "Puede devolver el producto en cualquier momento y cancelar el contrato. Sin embargo, todos los pagos realizados no son reembolsables y representan el pago por el uso del producto durante el período de alquiler. No se emitirán reembolsos ni créditos por pagos anteriores si el producto se devuelve antes de obtener la propiedad."
+      ]
     }
   },
   "information": {

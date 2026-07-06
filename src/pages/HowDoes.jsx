@@ -41,8 +41,15 @@ const steps = [
     },
 ];
 
+
+
 export default function HowDoes() {
+
     const { t } = useTranslation();
+
+    const disclosures = t("howItWorks.disclosure.items", {
+        returnObjects: true,
+    });
 
     return (
         <section className="md:py-12 py-8">
@@ -77,6 +84,32 @@ export default function HowDoes() {
                         );
                     })}
                 </div>
+
+                <div className="w-full mt-18">
+                    <div className="mx-auto max-w-7xl rounded-2xl md:rounded-3xl border border-gray-200 bg-white p-4 sm:p-6 md:p-8 shadow-sm transition-all duration-300 hover:shadow-xl">
+                        <h3 className="text-center text-xl sm:text-2xl md:text-3xl font-semibold text-gray-900">
+                            {t("howItWorks.disclosure.title")}
+                        </h3>
+
+                        <div className="mt-6 md:mt-8 space-y-4">
+                            {disclosures.map((item, index) => (
+                                <div
+                                    key={index}
+                                    className="flex flex-col sm:flex-row sm:items-start gap-3 sm:gap-4 rounded-2xl border border-gray-100 bg-gray-50 px-4 sm:px-5 py-4"
+                                >
+                                    <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-(--primary-color) text-sm font-semibold text-white">
+                                        {index + 1}
+                                    </span>
+
+                                    <p className="text-sm sm:text-base leading-6 sm:leading-7 text-gray-700">
+                                        {item}
+                                    </p>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
     );
