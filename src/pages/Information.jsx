@@ -1,135 +1,84 @@
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
-const InfoSection = ({ title, items }) => {
-    const { t } = useTranslation();
 
-    return (
-        <div className="border-2 border-(--primary-color) glow-border rounded-md p-4 bg-white">
-            <h3 className="font-semibold text-xl mb-2">
-                {t("information.important")}
-            </h3>
-
-            <ul className="space-y-2 text-lg font-medium text-gray-700 list-disc pl-5">
-                {items.map((item, i) => (
-                    <li key={i}>{item}</li>
-                ))}
-            </ul>
-        </div>
-    );
-};
-
-const StepCard = ({ step, title, items, footer }) => {
-    const { t } = useTranslation();
-    return(
-        <div className="border-2 border-(--primary-color) glow-border rounded-md p-4 bg-white flex flex-col h-full">
-            <h2 className="text-(--primary-color) font-bold text-xl mb-3">
-                {t("information.step")} {step} <span className="text-gray-800 font-semibold">{title}</span>
-            </h2>
-
-            <ul className="space-y-2 text-lg font-medium text-gray-700 list-disc pl-5 flex-1">
-                {items.map((item, i) => (
-                    <li key={i}>{item}</li>
-                ))}
-            </ul>
-
-            {footer && (
-                <div className="mt-4 border-t pt-3 text-md border-gray-400 text-gray-700">
-                    {footer}
-                </div>
-            )}
-        </div>
-    )
-};
 
 export default function Information() {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
+    const isSpanish = i18n.language === "es";
+
+    const sections = [
+        {
+            title: t("information.sections.customer.title"),
+            items: t("information.sections.customer.items", {
+                returnObjects: true,
+            }),
+        },
+        {
+            title: t("information.sections.store.title"),
+            items: t("information.sections.store.items", {
+                returnObjects: true,
+            }),
+        },
+    ];
+
     return (
         <div className="max-w-6xl mx-auto px-4 py-10 space-y-10">
-
-            {/* TITLE 1 */}
-            <h2 className="mb-8 text-center md:text-4xl text-3xl font-bold">
-                {t("information.customerInfoTitle")}
+            <h2 className="mb-8 text-center md:text-4xl text-2xl font-bold">
+                {t("information.heading")}
             </h2>
 
-            <InfoSection
-                items={[
-                    t("information.customerRequirements.item1"),
-                    t("information.customerRequirements.item2"),
-                    t("information.customerRequirements.item3"),
-                ]}
-            />
+            <div className="border-2 border-(--primary-color) glow-border rounded-md md:p-8 p-4 bg-white">
+                <h3 className="text-center text-2xl md:text-4xl font-semibold md:leading-12">
+                    {t("information.subHeading")}
+                </h3>
+            </div>
 
-            {/* TITLE 2 */}
-            <h2 className="mb-8 text-center md:text-4xl text-3xl font-bold">
-                {t("information.storeInfoTitle")}
-            </h2>
+            <div className="grid gap-8 lg:grid-cols-2 mt-18">
+                {sections.map((section) => (
+                    <div
+                        key={section.title}
+                        className="rounded-3xl border border-gray-200 bg-white p-6 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl"
+                    >
+                        <h3 className="text-2xl text-center font-semibold text-gray-900">
+                            {section.title}
+                        </h3>
 
-            <InfoSection
-                items={[
-                    t("information.storeRequirements.item1"),
-                    t("information.storeRequirements.item2"),
-                    t("information.storeRequirements.item3"),
-                    t("information.storeRequirements.item4"),
-                ]}
-            />
+                        <div className="mt-8 space-y-4">
+                            {section.items.map((item, index) => (
+                                <div
+                                    key={item}
+                                    className="flex items-center gap-4 rounded-2xl border border-gray-100 bg-gray-50 px-5 py-4"
+                                >
+                                    <span className="flex h-8 w-8 items-center justify-center rounded-full bg-(--primary-color) text-sm font-semibold text-white">
+                                        {index + 1}
+                                    </span>
 
-            {/* STEPS GRID */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-
-                <StepCard
-                    step={1}
-                    title={t("information.steps.customerInformation.title")}
-                    items={[
-                        t("information.steps.customerInformation.items.0"),
-                        t("information.steps.customerInformation.items.1"),
-                        t("information.steps.customerInformation.items.2"),
-                        t("information.steps.customerInformation.items.3"),
-                        t("information.steps.customerInformation.items.4"),
-                        t("information.steps.customerInformation.items.5"),
-                        t("information.steps.customerInformation.items.6"),
-                        t("information.steps.customerInformation.items.7"),
-                        t("information.steps.customerInformation.items.8"),
-                    ]}
-                />
-                <StepCard
-                    step={2}
-                    title={t("information.steps.sourceOfIncome.title")}
-                    items={[
-                        t("information.steps.sourceOfIncome.items.0"),
-                        t("information.steps.sourceOfIncome.items.1"),
-                        t("information.steps.sourceOfIncome.items.2"),
-                        t("information.steps.sourceOfIncome.items.3"),
-                        t("information.steps.sourceOfIncome.items.4"),
-                        t("information.steps.sourceOfIncome.items.5"),
-                        t("information.steps.sourceOfIncome.items.6"),
-                        t("information.steps.sourceOfIncome.items.7"),
-                        t("information.steps.sourceOfIncome.items.8"),
-                        t("information.steps.sourceOfIncome.items.9"),
-                    ]}
-                />
-
-                <StepCard
-                    step={3}
-                    title={t("information.steps.references.title")}
-                    items={[
-                        t("information.steps.references.items.0"),
-                        t("information.steps.references.items.1"),
-                        t("information.steps.references.items.2"),
-                        t("information.steps.references.items.3"),
-                    ]}
-                    footer={
-                        <div>
-                            <p className="font-semibold">
-                                {t("information.footer.needHelp")}
-                            </p>
-                            <p className="font-bold">
-                                {t("information.footer.call")}
-                            </p>
-                            <p className="text-xs mt-1">
-                                {t("information.footer.hours")}
-                            </p>
+                                    <p className="text-gray-700">
+                                        {item}
+                                    </p>
+                                </div>
+                            ))}
                         </div>
-                    }
+                    </div>
+                ))}
+            </div>
+
+            <div className="flex justify-center md:pb-6">
+                <Link to={`/${i18n.language}/become-dealer`} className="inline-block">
+                    <img
+                        src={isSpanish ? "/assets/home-2-es.png" : "/assets/home-2.png"}
+                    alt={t("information.imageAlt")}
+                        className="h-auto w-160 cursor-pointer"
+                    />
+                </Link>
+            </div>
+
+            <div className="flex justify-center pb-6 ">
+                <img
+                    src="/assets/info.png"
+                    alt=""
+                    className="h-auto w-160"
                 />
             </div>
         </div>

@@ -6,11 +6,8 @@
       "secondaryImageAlt": "Home",
       "bannerAlt": "Hero Banner",
       "features": {
-        "1": "No Credit Check",
-        "2": "No Bank Account Needed",
-        "3": "No Down Payment",
-        "4": "No Social Security Number",
-        "5": "No Driver’s License"
+        "1": "NO CREDIT CHECK",
+        "2": "NO SOCIAL SECURITY NUMBER REQUIRED"
       }
     },
     "opportunity": {
@@ -63,71 +60,29 @@
     }
   },
   "information": {
-    "important": "Important: Please read",
-    "step": "Step",
-    "customerInfoTitle": "Information Required by Customer",
-    "storeInfoTitle": "Information Required by Store",
+    "imageAlt": "Application information",
+    "heading": "NO CREDIT CHECK - NO SOCIAL SECURITY REQUIRED",
+    "subHeading": "Credit approval from $350 and up to $1500. Get funded within 2 business days.",
 
-    "customerRequirements": {
-      "item1": "Customers must provide correct information on the application to speed up the approval process.",
-      "item2": "Applications may be denied if the information provided is incorrect; these cannot be resubmitted using the same details.",
-      "item3": "We verify information by calling the customer and their references. The approval process typically takes between 10 minutes and one hour."
-    },
-
-    "storeRequirements": {
-      "item1": "Provide accurate information about the product you are selling. If the information is incorrect, your application will be denied.",
-      "item2": "Enter the exact selling price of the product, including any accessories.",
-      "item3": "Provide the exact description, make, and model of the product, including the IMEI, serial number, and color.",
-      "item4": "Enter the exact amount you are requesting for approval. Once the amount is requested and approved, it cannot be changed."
-    },
-
-    "steps": {
-      "customerInformation": {
-        "title": "Customer Information",
+    "sections": {
+      "customer": {
+        "title": "Information Required by Customer to Apply",
         "items": [
-          "First and Last Name",
-          "Date of Birth",
+          "First & Last Name",
+          "Any Form of Identification",
           "Customer Phone Number",
-          "Customer Email",
-          "Customer Address",
-          "Landlord or Apartment Complex Name",
-          "Landlord or Apartment Complex Phone Number",
-          "Monthly Payments",
-          "How long has the customer lived at this address?"
+          "Customer Email Address"
         ]
       },
-
-      "sourceOfIncome": {
-        "title": "Source of Income",
+      "store": {
+        "title": "Information Required by Store for Product Sale",
         "items": [
-          "Current Employer (if none, indicate source of income)",
-          "Employer Phone Number",
-          "Job Title / Position",
-          "Time at Current Job",
-          "Work Hours / Shift",
-          "Employer Address",
-          "Supervisor Name",
-          "Supervisor Phone Number",
-          "Take-Home Pay",
-          "Payday Frequency"
-        ]
-      },
-
-      "references": {
-        "title": "4 Personal References",
-        "items": [
-          "Reference #1 and #2 must be a relative",
-          "Relationship",
-          "Phone Number",
-          "Address City/State/Zip or Postal Code"
+          "Product Detail",
+          "Model Number",
+          "Serial Number",
+          "Selling Price"
         ]
       }
-    },
-
-    "footer": {
-      "needHelp": "Need Help?",
-      "call": "Call: 901-557-1809",
-      "hours": "Business Hours are Monday to Friday 9am to 6pm central time."
     }
   },
   "becomeDealer": {
@@ -150,7 +105,8 @@
       "storeName": "Store Name *",
       "phone": "Phone Number *",
       "email": "Email *",
-      "selectStoreType": "--- Select Store Type ---",
+      "selectStoreType": "Select Store Type",
+      "selectAboutUs": "How did you hear about us?",
       "businessAddress": "Business Address *",
       "city": "City *",
       "state": "State *",
@@ -165,16 +121,28 @@
       "metroPCS": "Metro PCS",
       "totalWireless": "Total Wireless",
       "electronicStore": "Electronic Store"
+    },
+    "aboutUs": {
+      "claudia": "Claudia",
+      "ray": "Ray",
+      "elizabeth": "Elizabeth",
+      "carla": "Carla",
+      "maxie": "Maxie",
+      "steven": "Steven",
+      "gregory": "Gregory",
+      "mike": "Mike",
+      "luis": "Luis",
+      "other": "Other"
     }
   },
   "header": {
     "nav": {
       "home": "Home",
       "howItWorks": "How Does It Work?",
-      "informationRequired": "Information Required",
-      "becomeDealer": "Become a Dealer"
+      "howtoapplyforcustomer": "How to Apply for Customer",
+      "becomeDealer": "Start Application"
     },
-    "contactUs": "Contact Us",
+    "contactUs": "Become a Dealer",
     "loginPortal": "Login to Portal"
   },
   "footer": {

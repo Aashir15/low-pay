@@ -4,10 +4,10 @@ import Button from "../components/PrimaryBtn";
 
 const features = [
     ["1", "/assets/i-1.webp"],
-    ["2", "/assets/i-2.webp"],
-    ["3", "/assets/i-3.webp"],
-    ["4", "/assets/i-4.webp"],
-    ["5", "/assets/i-5.webp"],
+    // ["2", "/assets/i-2.webp"],
+    // ["3", "/assets/i-3.webp"],
+    ["2", "/assets/i-4.webp"],
+    // ["5", "/assets/i-5.webp"],
 ];
 
 const partners = [
@@ -74,7 +74,7 @@ function Home() {
                                     alt={t("home.hero.mainImageAlt")}
                                     className="object-contain"
                                 />
-                                <Link to="contact">
+                                <Link to="become-dealer">
                                     <img
                                         src={isSpanish ? "/assets/hero-2-es.webp" : "/assets/hero-2.webp"}
                                         alt={t("home.hero.secondaryImageAlt")}

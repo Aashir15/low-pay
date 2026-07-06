@@ -17,10 +17,10 @@ export default function Header() {
     const navLinks = [
         { name: t("header.nav.home"), path: `/${lang}` },
         { name: t("header.nav.howItWorks"), path: `/${lang}/howDoesItWork` },
-        { name: t("header.nav.informationRequired"), path: `/${lang}/informationRequired` },
+        { name: t("header.nav.howtoapplyforcustomer"), path: `/${lang}/how-to-apply-for-customer` },
         {
             name: t("header.nav.becomeDealer"),
-            path: `/${lang}/becomeDealer`,
+            path: `/${lang}/start-application`,
             highlighted: true,
         },
     ];
@@ -67,7 +67,7 @@ export default function Header() {
                     </nav>
 
                     <div className="hidden lg:flex items-center gap-4">
-                        <Button text={t("header.contactUs")} to={`/${lang}/contact`} />
+                        <Button text={t("header.contactUs")} to={`/${lang}/become-dealer`} />
                         <LanguageSelector />
                     </div>
 

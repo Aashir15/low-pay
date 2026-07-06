@@ -6,11 +6,8 @@
       "secondaryImageAlt": "Inicio",
       "bannerAlt": "Banner principal",
       "features": {
-        "1": "Sin verificación de crédito",
-        "2": "No se necesita cuenta bancaria",
-        "3": "Sin pago inicial",
-        "4": "Sin número de Seguro Social",
-        "5": "Sin licencia de conducir"
+        "1": "SIN VERIFICACIÓN DE CRÉDITO",
+        "2": "NO SE REQUIERE NÚMERO DE SEGURO SOCIAL"
       }
     },
     "opportunity": {
@@ -63,71 +60,29 @@
     }
   },
   "information": {
-    "important": "Importante: Por favor lea",
-    "step": "Paso",
-    "customerInfoTitle": "Información requerida por el cliente",
-    "storeInfoTitle": "Información requerida por la tienda",
+    "imageAlt": "Información de la solicitud",
+    "heading": "SIN VERIFICACIÓN DE CRÉDITO - NO SE REQUIERE NÚMERO DE SEGURO SOCIAL",
+    "subHeading": "Aprobación de crédito desde $350 hasta $1500. Reciba los fondos en un plazo de 2 días hábiles.",
 
-    "customerRequirements": {
-      "item1": "Los clientes deben proporcionar información correcta en la solicitud para agilizar el proceso de aprobación.",
-      "item2": "Las solicitudes pueden ser rechazadas si la información proporcionada es incorrecta; no pueden volver a enviarse con los mismos datos.",
-      "item3": "Verificamos la información llamando al cliente y a sus referencias. El proceso de aprobación suele tardar entre 10 minutos y una hora."
-    },
-
-    "storeRequirements": {
-      "item1": "Proporcione información precisa sobre el producto que está vendiendo. Si la información es incorrecta, su solicitud será rechazada.",
-      "item2": "Ingrese el precio exacto de venta del producto, incluidos los accesorios.",
-      "item3": "Proporcione la descripción exacta, marca y modelo del producto, incluido el IMEI, número de serie y color.",
-      "item4": "Ingrese el monto exacto que solicita para aprobación. Una vez solicitado y aprobado, no podrá modificarse."
-    },
-
-    "steps": {
-      "customerInformation": {
-        "title": "Información del cliente",
+    "sections": {
+      "customer": {
+        "title": "Información requerida del cliente para solicitar",
         "items": [
           "Nombre y apellido",
-          "Fecha de nacimiento",
+          "Cualquier forma de identificación",
           "Número de teléfono del cliente",
-          "Correo electrónico del cliente",
-          "Dirección del cliente",
-          "Nombre del propietario o complejo de apartamentos",
-          "Teléfono del propietario o complejo de apartamentos",
-          "Pagos mensuales",
-          "¿Cuánto tiempo ha vivido el cliente en esta dirección?"
+          "Correo electrónico del cliente"
         ]
       },
-
-      "sourceOfIncome": {
-        "title": "Fuente de ingresos",
+      "store": {
+        "title": "Información requerida por la tienda para la venta del producto",
         "items": [
-          "Empleador actual (si no tiene, indique la fuente de ingresos)",
-          "Número de teléfono del empleador",
-          "Cargo / Puesto",
-          "Tiempo en el trabajo actual",
-          "Horario / Turno de trabajo",
-          "Dirección del empleador",
-          "Nombre del supervisor",
-          "Teléfono del supervisor",
-          "Ingreso neto",
-          "Frecuencia de pago"
-        ]
-      },
-
-      "references": {
-        "title": "4 referencias personales",
-        "items": [
-          "Las referencias #1 y #2 deben ser familiares",
-          "Relación",
-          "Número de teléfono",
-          "Dirección Ciudad/Estado/Código Postal"
+          "Detalles del producto",
+          "Número de modelo",
+          "Número de serie",
+          "Precio de venta"
         ]
       }
-    },
-
-    "footer": {
-      "needHelp": "¿Necesita ayuda?",
-      "call": "Llame: 901-557-1809",
-      "hours": "Horario de atención: lunes a viernes de 9 a.m. a 6 p.m. hora central."
     }
   },
   "becomeDealer": {
@@ -151,6 +106,7 @@
       "phone": "Número de teléfono *",
       "email": "Correo electrónico *",
       "selectStoreType": "--- Seleccione el tipo de tienda ---",
+     "selectAboutUs": "--- ¿Cómo se enteró de nosotros? ---",
       "businessAddress": "Dirección del negocio *",
       "city": "Ciudad *",
       "state": "Estado *",
@@ -165,16 +121,28 @@
       "metroPCS": "Metro PCS",
       "totalWireless": "Total Wireless",
       "electronicStore": "Tienda de electrónica"
+    },
+    "aboutUs": {
+      "claudia": "Claudia",
+      "ray": "Ray",
+      "elizabeth": "Elizabeth",
+      "carla": "Carla",
+      "maxie": "Maxie",
+      "steven": "Steven",
+      "gregory": "Gregory",
+      "mike": "Mike",
+      "luis": "Luis",
+      "other": "Other"
     }
   },
   "header": {
     "nav": {
       "home": "Inicio",
       "howItWorks": "¿Cómo funciona?",
-      "informationRequired": "Información requerida",
-      "becomeDealer": "Conviértase en distribuidor"
+      "howtoapplyforcustomer": "Cómo Solicitar como Cliente",
+      "becomeDealer": "Iniciar Solicitud"
     },
-    "contactUs": "Contáctenos",
+    "contactUs": "Conviértase en distribuidor",
     "loginPortal": "Iniciar sesión en el portal"
   },
   "footer": {

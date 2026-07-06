@@ -11,6 +11,7 @@ export default function Contact() {
         phone: "",
         email: "",
         storeType: "",
+        aboutUs: "",
         businessAddress: "",
         city: "",
         state: "",
@@ -30,6 +31,19 @@ export default function Contact() {
         "metroPCS",
         "totalWireless",
         "electronicStore",
+    ];
+
+    const aboutUs = [
+        "claudia",
+        "ray",
+        "elizabeth",
+        "carla",
+        "maxie",
+        "steven",
+        "gregory",
+        "mike",
+        "luis",
+        "other"
     ];
 
     const validateForm = () => {
@@ -105,6 +119,7 @@ export default function Contact() {
                     phone: "",
                     email: "",
                     storeType: "",
+                    aboutUs: "",
                     businessAddress: "",
                     city: "",
                     state: "",
@@ -126,6 +141,14 @@ export default function Contact() {
     return (
         <section className="md:py-12 py-8 px-6">
             <div className="max-w-3xl mx-auto">
+
+                <div className="flex justify-center pb-6 ">
+                    <img
+                        src="/assets/contact.webp"
+                        alt=""
+                        className="h-auto border border-gray-200 rounded-3xl shadow-lg"
+                    />
+                </div>
 
                 <div className="bg-white border border-gray-300 rounded-3xl shadow-2xl p-6 md:p-10">
                     {success && (
@@ -197,6 +220,23 @@ export default function Contact() {
                             {storeTypes.map((type) => (
                                 <option key={type} value={t(`contact.storeTypes.${type}`)}>
                                     {t(`contact.storeTypes.${type}`)}
+                                </option>
+                            ))}
+                        </select>
+
+                        <select
+                            name="aboutUs"
+                            value={formData.aboutUs}
+                            onChange={handleChange}
+                            className={inputClass}
+                        >
+                            <option value="">
+                                {t("contact.fields.selectAboutUs")}
+                            </option>
+
+                            {aboutUs.map((person) => (
+                                <option key={person} value={t(`contact.aboutUs.${person}`)}>
+                                    {t(`contact.aboutUs.${person}`)}
                                 </option>
                             ))}
                         </select>

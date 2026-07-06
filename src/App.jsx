@@ -79,7 +79,7 @@ function App() {
             />
 
             <Route
-              path="/:lang/informationRequired"
+              path="/:lang/how-to-apply-for-customer"
               element={
                 <LangWrapper>
                   <Information />
@@ -88,7 +88,7 @@ function App() {
             />
 
             <Route
-              path="/:lang/becomeDealer"
+              path="/:lang/start-application"
               element={
                 <LangWrapper>
                   <BecomeDealer />
@@ -124,7 +124,7 @@ function App() {
             />
 
             <Route
-              path="/:lang/contact"
+              path="/:lang/become-dealer"
               element={
                 <LangWrapper>
                   <Contact />
