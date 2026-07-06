@@ -91,7 +91,20 @@ export default function Contact() {
             access_key: "a78b82f0-f470-4353-8ab6-d1d03d8fb6dd",
             subject: "New Store Inquiry",
             from_name: "Low Weekly Payment",
-            ...formData,
+
+            "Full Name": formData.fullName,
+            "Title": formData.title,
+            "Store Name": formData.storeName,
+            "Phone Number": formData.phone,
+            "Email": formData.email,
+            "Store Type": formData.storeType,
+            "How did you hear about us?": formData.aboutUs,
+            "Business Address": formData.businessAddress,
+            "City": formData.city,
+            "State": formData.state,
+            "Zip Code": formData.zipCode,
+            "Number of Locations": formData.numberOfLocations,
+            "Comments": formData.comments,
         };
 
         try {
