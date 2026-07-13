@@ -2,13 +2,13 @@ import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 import Button from "../components/PrimaryBtn";
 
-const features = [
-    ["1", "/assets/i-1.webp"],
-    // ["2", "/assets/i-2.webp"],
-    // ["3", "/assets/i-3.webp"],
-    ["2", "/assets/i-4.webp"],
-    // ["5", "/assets/i-5.webp"],
-];
+// const features = [
+//     ["1", "/assets/i-1.webp"],
+//     // ["2", "/assets/i-2.webp"],
+//     // ["3", "/assets/i-3.webp"],
+//     ["2", "/assets/i-4.webp"],
+//     // ["5", "/assets/i-5.webp"],
+// ];
 
 const partners = [
     {
@@ -60,7 +60,7 @@ function Home() {
 
     return (
         <>
-            <section className="bg-linear-to-r from-[#025db3] via-[#0671af] to-[#4fc3ff]">
+            {/* <section className="bg-linear-to-r from-[#025db3] via-[#0671af] to-[#4fc3ff]">
                 <div className="max-w-7xl mx-auto py-12 px-4">
                     <div className="grid lg:grid-cols-[60%_40%] gap-8 items-end justify-center">
                         <div className="flex flex-col justify-center">
@@ -107,6 +107,18 @@ function Home() {
                             </div>
                         ))}
                     </div>
+                </div>
+            </section> */}
+
+            <section className="bg-[#34009c]">
+                <div className="flex flex-col max-w-7xl mx-auto items-center gap-4">
+                    <Link to="become-dealer">
+                        <img
+                            src={isSpanish ? "/assets/hero-es.png" : "/assets/hero-en.png"}
+                            alt={t("home.hero.secondaryImageAlt")}
+                            className="object-contain cursor-pointer"
+                        />
+                    </Link>
                 </div>
             </section>
 
