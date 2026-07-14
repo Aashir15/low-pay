@@ -123,7 +123,7 @@ function Home() {
             </section>
 
             <div className="bg-black w-full flex justify-center py-6">
-                <h1 className="md:text-4xl text-2xl text-center text-white font-bold px-4">
+                <h1 className="text-[18px] text-center text-white font-bold px-4">
                     {t("home.opportunity.title")}
                 </h1>
             </div>
