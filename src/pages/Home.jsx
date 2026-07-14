@@ -112,7 +112,7 @@ function Home() {
 
             <section className="bg-[#34009c]">
                 <div className="flex flex-col max-w-7xl mx-auto items-center gap-4">
-                    <Link to="become-dealer">
+                    <Link to="contact-us">
                         <img
                             src={isSpanish ? "/assets/hero-es.png" : "/assets/hero-en.png"}
                             alt={t("home.hero.secondaryImageAlt")}

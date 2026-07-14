@@ -67,7 +67,7 @@ export default function Header() {
                     </nav>
 
                     <div className="hidden lg:flex items-center gap-4">
-                        <Button text={t("header.contactUs")} to={`/${lang}/become-dealer`} />
+                        <Button text={t("header.contactUs")} to={`/${lang}/contact-us`} />
                         <LanguageSelector />
                     </div>
 
@@ -117,7 +117,7 @@ export default function Header() {
 
                 <div className="flex flex-col items-start gap-4 px-4 mt-4">
                     <div onClick={() => setOpen(false)}>
-                        <Button text={t("header.contactUs")} to={`/${lang}/contact`} />
+                        <Button text={t("header.contactUs")} to={`/${lang}/contact-us`} />
                     </div>
                 </div>
             </div>

@@ -268,7 +268,7 @@ export default function Contact() {
     const getInputClass = (fieldName) => `
         w-full rounded-xl border bg-white px-4 py-3 text-sm text-black
         outline-none transition-all duration-300
-        placeholder:text-gray-400
+        placeholder:text-black
         ${errors[fieldName]
             ? "border-red-500 focus:border-red-500 focus:ring-2 focus:ring-red-100"
             : "border-gray-200 focus:border-[var(--secondary-color)] focus:ring-2 focus:ring-[var(--secondary-color)]/20"
@@ -310,8 +310,8 @@ export default function Contact() {
                         </div>
 
                         <div className="flex flex-col items-center md:items-start">
-                            <h2 className="text-xl font-medium sm:text-2xl md:text-3xl">
-                                Talk to the agent or fill out the form
+                            <h2 className="text-xl font-medium md:text-2xl">
+                                Talk to the agent or fill out the Application
                             </h2>
 
                             <a

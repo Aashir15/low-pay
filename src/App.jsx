@@ -124,7 +124,7 @@ function App() {
             />
 
             <Route
-              path="/:lang/become-dealer"
+              path="/:lang/contact-us"
               element={
                 <LangWrapper>
                   <Contact />
