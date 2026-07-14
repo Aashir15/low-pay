@@ -122,11 +122,11 @@ function Home() {
                 </div>
             </section>
 
-            <div className="bg-black w-full flex justify-center py-6">
+            {/* <div className="bg-black w-full flex justify-center py-6">
                 <h1 className="text-[18px] text-center text-white font-bold px-4">
                     {t("home.opportunity.title")}
                 </h1>
-            </div>
+            </div> */}
 
             <div className="px-4 flex flex-col lg:flex-row items-center justify-center md:gap-8">
                 <div className="flex flex-col items-center lg:items-start justify-center py-6 gap-4 text-center lg:text-left">

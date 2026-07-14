@@ -84,7 +84,7 @@
         ]
       },
       "store": {
-        "title": "Información requerida por la tienda para la venta del producto",
+        "title": "Información requerida por la tienda para.",
         "items": [
           "Detalles del producto",
           "Número de modelo",

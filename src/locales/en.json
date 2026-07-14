@@ -84,7 +84,7 @@
         ]
       },
       "store": {
-        "title": "Information Required by Store for Product Sale",
+        "title": "Information Required by Store.",
         "items": [
           "Product Detail",
           "Model Number",
