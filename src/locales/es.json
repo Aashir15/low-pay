@@ -70,7 +70,8 @@
   "information": {
     "imageAlt": "Información de la solicitud",
     "heading": "SIN VERIFICACIÓN DE CRÉDITO - NO SE REQUIERE NÚMERO DE SEGURO SOCIAL",
-    "subHeading": "Aprobación de crédito desde $350 hasta $1500. Reciba los fondos en un plazo de 2 días hábiles.",
+    "subHeading": "Aprobación de crédito desde $350 hasta $1500.",
+    "subHeading2": "Reciba los fondos en un plazo de 2 días hábiles.",
 
     "sections": {
       "customer": {
@@ -103,9 +104,14 @@
     "submit": "Enviar",
     "submitting": "Enviando...",
     "errors": {
-      "required": "Este campo es obligatorio",
-      "invalidEmail": "Ingrese una dirección de correo electrónico válida",
-      "submitFailed": "No se pudo enviar el formulario."
+      "required": "Este campo es obligatorio.",
+      "invalidEmail": "Ingrese una dirección de correo electrónico válida.",
+      "invalidPhone": "Ingrese un número de teléfono válido.",
+      "invalidFullName": "Ingrese un nombre completo válido.",
+      "invalidZipCode": "Ingrese un código postal válido, por ejemplo 12345.",
+      "invalidLocations": "El número de ubicaciones debe ser al menos 1.",
+      "commentsTooLong": "Los comentarios no pueden contener más de 1,000 caracteres.",
+      "submitFailed": "Algo salió mal. Inténtelo de nuevo."
     },
     "fields": {
       "fullName": "Nombre completo *",
@@ -113,8 +119,8 @@
       "storeName": "Nombre de la tienda *",
       "phone": "Número de teléfono *",
       "email": "Correo electrónico *",
-      "selectStoreType": "--- Seleccione el tipo de tienda ---",
-     "selectAboutUs": "--- ¿Cómo se enteró de nosotros? ---",
+      "selectStoreType": "--- Seleccione el tipo de tienda * ---",
+      "selectAboutUs": "--- ¿Cómo se enteró de nosotros? * ---",
       "businessAddress": "Dirección del negocio *",
       "city": "Ciudad *",
       "state": "Estado *",
@@ -140,7 +146,7 @@
       "gregory": "Gregory",
       "mike": "Mike",
       "luis": "Luis",
-      "other": "Other"
+      "other": "Otro"
     }
   },
   "header": {

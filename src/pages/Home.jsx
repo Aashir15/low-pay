@@ -155,10 +155,9 @@ function Home() {
 
             <div className="px-4 flex flex-col lg:flex-row items-center justify-center md:gap-8 py-8">
                 <div className="flex flex-col items-center justify-center py-6 gap-4 text-center">
-                    <h1 className="text-2xl md:text-4xl font-bold">
+                    <h1 className="text-2xl font-sans md:text-4xl font-bold">
                         {t("home.credit.title")}
                     </h1>
-
                     <h2 className="text-xl md:text-3xl font-semibold">
                         {t("home.credit.subtitle")}
                     </h2>

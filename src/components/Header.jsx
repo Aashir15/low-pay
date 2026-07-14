@@ -18,11 +18,11 @@ export default function Header() {
         { name: t("header.nav.home"), path: `/${lang}` },
         { name: t("header.nav.howItWorks"), path: `/${lang}/howDoesItWork` },
         { name: t("header.nav.howtoapplyforcustomer"), path: `/${lang}/how-to-apply-for-customer` },
-        {
-            name: t("header.nav.becomeDealer"),
-            path: `/${lang}/start-application`,
-            highlighted: true,
-        },
+        // {
+        //     name: t("header.nav.becomeDealer"),
+        //     path: `/${lang}/start-application`,
+        //     highlighted: true,
+        // },
     ];
 
     useEffect(() => {

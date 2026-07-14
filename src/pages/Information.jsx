@@ -32,6 +32,9 @@ export default function Information() {
                 <h3 className="text-center text-2xl md:text-4xl font-semibold md:leading-12">
                     {t("information.subHeading")}
                 </h3>
+                <h3 className="text-center text-2xl md:text-4xl font-semibold md:leading-12">
+                    {t("information.subHeading2")}
+                </h3>
             </div>
 
             <div className="grid gap-8 lg:grid-cols-2 mt-18">

@@ -70,7 +70,8 @@
   "information": {
     "imageAlt": "Application information",
     "heading": "NO CREDIT CHECK - NO SOCIAL SECURITY REQUIRED",
-    "subHeading": "Credit approval from $350 and up to $1500. Get funded within 2 business days.",
+    "subHeading": "Credit approval from $350 and up to $1500.",
+    "subHeading2": "Get funded within 2 business days.",
 
     "sections": {
       "customer": {
@@ -103,9 +104,14 @@
     "submit": "Submit",
     "submitting": "Submitting...",
     "errors": {
-      "required": "This field is required",
-      "invalidEmail": "Enter a valid email address",
-      "submitFailed": "Failed to submit form."
+      "required": "This field is required.",
+      "invalidEmail": "Please enter a valid email address.",
+      "invalidPhone": "Please enter a valid phone number.",
+      "invalidFullName": "Please enter a valid full name.",
+      "invalidZipCode": "Enter a valid ZIP code, for example 12345.",
+      "invalidLocations": "Number of locations must be at least 1.",
+      "commentsTooLong": "Comments cannot contain more than 1,000 characters.",
+      "submitFailed": "Something went wrong. Please try again."
     },
     "fields": {
       "fullName": "Full Name *",
@@ -113,8 +119,8 @@
       "storeName": "Store Name *",
       "phone": "Phone Number *",
       "email": "Email *",
-      "selectStoreType": "Select Store Type",
-      "selectAboutUs": "How did you hear about us?",
+      "selectStoreType": "Select Store Type *",
+      "selectAboutUs": "How did you hear about us? *",
       "businessAddress": "Business Address *",
       "city": "City *",
       "state": "State *",
