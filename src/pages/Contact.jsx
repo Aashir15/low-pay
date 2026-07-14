@@ -316,7 +316,7 @@ export default function Contact() {
 
                             <a
                                 href="tel:9015571809"
-                                className="mt-2 block break-words text-3xl font-bold tracking-wide text-(--primary-color) transition hover:opacity-80 sm:text-4xl md:text-5xl lg:text-6xl"
+                                className="mt-2 block break-words text-3xl font-bold tracking-wide text-(--primary-color) transition hover:opacity-80 sm:text-4xl md:text-5xl font-sans lg:text-6xl"
                             >
                                 901-557-1809
                             </a>
