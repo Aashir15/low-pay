@@ -56,7 +56,7 @@
       "waitApproval": "Espere la aprobación",
       "signAgreement": "El cliente firma el acuerdo",
       "deliverProduct": "Entregue el producto al cliente",
-      "getFunded": "Reciba el financiamiento el siguiente día hábil"
+      "getFunded": "Obtenga financiación en un plazo de 2 días hábiles"
     },
     "disclosure": {
       "title": "Divulgación del Programa de Alquiler con Opción de Compra",
@@ -84,7 +84,7 @@
         ]
       },
       "store": {
-        "title": "Información requerida por la tienda para.",
+        "title": "Información requerida por la tienda para",
         "items": [
           "Detalles del producto",
           "Número de modelo",
@@ -116,17 +116,17 @@
     "fields": {
       "fullName": "Nombre completo *",
       "title": "Cargo *",
-      "storeName": "Nombre de la tienda *",
+      "businessName": "Nombre comercial *",
       "phone": "Número de teléfono *",
       "email": "Correo electrónico *",
       "selectStoreType": "--- Seleccione el tipo de tienda * ---",
-      "selectAboutUs": "--- ¿Cómo se enteró de nosotros? * ---",
+      "selectAboutUs": "--- seleccione su ejecutivo de cuenta * ---",
       "businessAddress": "Dirección del negocio *",
       "city": "Ciudad *",
       "state": "Estado *",
       "zipCode": "Código postal *",
       "numberOfLocations": "Número de ubicaciones *",
-      "comments": "Comentarios"
+      "comments": "Comentarios...."
     },
     "storeTypes": {
       "multiCarrierStore": "Tienda multioperador",
@@ -145,7 +145,7 @@
       "steven": "Steven",
       "gregory": "Gregory",
       "mike": "Mike",
-      "luis": "Luis",
+      "viviana": "Viviana",
       "other": "Otro"
     }
   },
@@ -153,7 +153,7 @@
     "nav": {
       "home": "Inicio",
       "howItWorks": "¿Cómo funciona?",
-      "howtoapplyforcustomer": "Cómo Solicitar como Cliente",
+      "howtoapplyforcustomer": "¿Requisitos del cliente para postularse?",
       "becomeDealer": "Presentar una solicitud de distribuidor"
     },
     "contactUs": "Contacta con nosotros",

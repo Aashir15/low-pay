@@ -128,7 +128,7 @@ function Home() {
                 </h1>
             </div> */}
 
-            <div className="px-4 flex flex-col lg:flex-row items-center justify-center md:gap-8">
+            <div className="px-4 flex flex-col lg:flex-row items-center justify-center">
                 <div className="flex flex-col items-center lg:items-start justify-center py-6 gap-4 text-center lg:text-left">
                     <h1 className="text-2xl md:text-4xl font-bold">
                         {t("home.customers.title")}

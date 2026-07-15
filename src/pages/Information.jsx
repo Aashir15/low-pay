@@ -67,7 +67,7 @@ export default function Information() {
                 ))}
             </div>
 
-            <div className="flex justify-center md:pb-6">
+            {/* <div className="flex justify-center md:pb-6">
                 <Link to={`/${i18n.language}/become-dealer`} className="inline-block">
                     <img
                         src={isSpanish ? "/assets/hero-2-es.webp" : "/assets/hero-2.webp"}
@@ -75,7 +75,7 @@ export default function Information() {
                         className="object-contain cursor-pointer"
                     />
                 </Link>
-            </div>
+            </div> */}
 
             <div className="flex justify-center pb-6 ">
                 <img

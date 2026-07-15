@@ -7,12 +7,12 @@ import {
 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import Button from "../components/PrimaryBtn"
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const initialFormData = {
     fullName: "",
     title: "",
-    storeName: "",
+    businessName: "",
     phone: "",
     email: "",
     storeType: "",
@@ -26,7 +26,7 @@ const initialFormData = {
 };
 
 export default function Contact() {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
 
     const [formData, setFormData] = useState(initialFormData);
     const [errors, setErrors] = useState({});
@@ -52,7 +52,7 @@ export default function Contact() {
         "steven",
         "gregory",
         "mike",
-        "luis",
+        "viviana",
         "other",
     ];
 
@@ -60,7 +60,7 @@ export default function Contact() {
     const requiredFields = [
         "fullName",
         "title",
-        "storeName",
+        "businessName",
         "phone",
         "email",
         "storeType",
@@ -207,7 +207,7 @@ export default function Contact() {
 
             "Full Name": formData.fullName.trim(),
             Title: formData.title.trim(),
-            "Store Name": formData.storeName.trim(),
+            "Business Name": formData.businessName.trim(),
             "Phone Number": formData.phone.trim(),
             Email: formData.email.trim(),
             "Store Type": formData.storeType,
@@ -294,12 +294,13 @@ export default function Contact() {
 
     const location = useLocation();
     const lang = location.pathname.split("/")[1] || "en";
+    const isSpanish = i18n.language === "es";
 
     return (
         <section className="px-4 py-8 sm:px-6 md:py-12">
             <div className="mx-auto max-w-3xl">
 
-                <div className="mb-6 w-full rounded-3xl border border-gray-200 px-4 py-8 shadow-lg">
+                {/* <div className="mb-6 w-full rounded-3xl border border-gray-200 px-4 py-8 shadow-lg">
                     <div className="flex flex-col items-center justify-center gap-6 text-center md:flex-row md:text-left">
                         <div className="shrink-0">
                             <img
@@ -335,6 +336,21 @@ export default function Contact() {
                             </p>
                         </div>
                     </div>
+                </div> */}
+
+                <div className="shrink-0">
+                    <Link to={`/${lang}/start-application`}>
+                        <img
+                            src={isSpanish ? "/assets/con-es.jpg" : "/assets/con-en.jpg"}
+                            className="border border-gray-200 shadow-xl rounded-2xl"
+                        />
+                    </Link>
+                </div>
+
+                <div>
+                    <h1 className="text-center font-semibold md:text-5xl text-4xl py-8">
+                        Contact Us
+                    </h1>
                 </div>
 
                 <div className="rounded-3xl border border-gray-300 bg-white p-5 shadow-2xl sm:p-6 md:p-10">
@@ -414,25 +430,25 @@ export default function Contact() {
                         <div>
                             <input
                                 type="text"
-                                name="storeName"
+                                name="businessName"
                                 autoComplete="organization"
                                 placeholder={t(
-                                    "contact.fields.storeName"
+                                    "contact.fields.businessName"
                                 )}
-                                value={formData.storeName}
+                                value={formData.businessName}
                                 onChange={handleChange}
                                 onBlur={handleBlur}
                                 aria-invalid={Boolean(
-                                    errors.storeName
+                                    errors.businessName
                                 )}
                                 aria-describedby={
-                                    errors.storeName
-                                        ? "storeName-error"
+                                    errors.businessName
+                                        ? "businessName-error"
                                         : undefined
                                 }
-                                className={getInputClass("storeName")}
+                                className={getInputClass("businessName")}
                             />
-                            <FieldError name="storeName" />
+                            <FieldError name="businessName" />
                         </div>
 
                         <div className="grid gap-5 md:grid-cols-2">

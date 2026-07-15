@@ -56,7 +56,7 @@
       "waitApproval": "Wait for Approval",
       "signAgreement": "Customer Sign Agreement",
       "deliverProduct": "Deliver Product to Customer",
-      "getFunded": "Get Funded on the Next Business Day"
+      "getFunded": "Get funded within 2 business days"
     },
     "disclosure": {
       "title": "Rent-to-Own Program Disclosure",
@@ -69,7 +69,7 @@
   },
   "information": {
     "imageAlt": "Application information",
-    "heading": "NO CREDIT CHECK - NO SOCIAL SECURITY REQUIRED",
+    "heading": "NO CREDIT CHECK - NO SOCIAL REQUIRED",
     "subHeading": "Credit approval from $350 and up to $1500.",
     "subHeading2": "Get funded within 2 business days.",
 
@@ -84,7 +84,7 @@
         ]
       },
       "store": {
-        "title": "Information Required by Store.",
+        "title": "Information Required by Store",
         "items": [
           "Product Detail",
           "Model Number",
@@ -116,17 +116,17 @@
     "fields": {
       "fullName": "Full Name *",
       "title": "Title *",
-      "storeName": "Store Name *",
+      "businessName": "Business Name *",
       "phone": "Phone Number *",
       "email": "Email *",
       "selectStoreType": "Select Store Type *",
-      "selectAboutUs": "How did you hear about us? *",
+      "selectAboutUs": "Select Your Account Executive *",
       "businessAddress": "Business Address *",
       "city": "City *",
       "state": "State *",
       "zipCode": "Zip Code *",
       "numberOfLocations": "Number of Locations *",
-      "comments": "Comments"
+      "comments": "Comments...."
     },
     "storeTypes": {
       "multiCarrierStore": "Multi Carrier Store",
@@ -145,7 +145,7 @@
       "steven": "Steven",
       "gregory": "Gregory",
       "mike": "Mike",
-      "luis": "Luis",
+      "viviana": "Viviana",
       "other": "Other"
     }
   },
@@ -153,7 +153,7 @@
     "nav": {
       "home": "Home",
       "howItWorks": "How Does It Work?",
-      "howtoapplyforcustomer": "How to Apply for Customer",
+      "howtoapplyforcustomer": "What is Customer Requirements to Apply?",
       "becomeDealer": "Submit A Dealer Application"
     },
     "contactUs": "Contact Us",

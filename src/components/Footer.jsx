@@ -9,11 +9,11 @@ export default function Footer() {
     const { lang = "en" } = useParams();
 
     const footerLinks = [
-        {
-            name: t("footer.links.application"),
-            path: "/assets/LWP-Application.pdf",
-            external: true,
-        },
+        // {
+        //     name: t("footer.links.application"),
+        //     path: "/assets/LWP-Application.pdf",
+        //     external: true,
+        // },
         {
             name: t("footer.links.terms"),
             path: `/${lang}/TermsConditions`,
@@ -72,7 +72,7 @@ export default function Footer() {
                         )}
                     </div>
 
-                    {/* Right */}
+                    {/* Right
                     <a
                         href="tel:9015571809"
                         className="inline-flex items-center gap-2 rounded bg-blue-600 px-6 py-2 text-md font-semibold text-white transition hover:bg-(--primary-color)"
@@ -81,7 +81,7 @@ export default function Footer() {
                         <span className="font-sans tracking-wide">
                             901-557-1809
                         </span>
-                    </a>
+                    </a> */}
 
                 </div>
 

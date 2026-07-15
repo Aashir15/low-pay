@@ -30,7 +30,7 @@ const executives = [
         link: "https://surgesetup.com/home.php?s=ly3nLbAPuWJtre7S",
     },
     {
-        name: "Mike",
+        name: "Viviana",
         link: "https://surgesetup.com/home.php?s=2305843009213693952",
     },
     {
